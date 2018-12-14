@@ -37,4 +37,4 @@ rsconnect/
 .Rproj.user
 
 # Ignore LARGE model output objects
-Output/*.rds
+Output/DLM*.rds
