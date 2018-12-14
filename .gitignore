@@ -37,4 +37,9 @@ rsconnect/
 .Rproj.user
 
 # Ignore LARGE model output objects
-Output/DLM/*.rds
+#*.rds
+/Output/DLM-Ricker/*.rds
+/Output/DLM-Ricker-plus/*.rds
+/Output/DLM-DFA-Ricker/*.rds
+/Output/MARSS-Ricker/*.rds
+
