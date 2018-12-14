@@ -43,3 +43,5 @@ rsconnect/
 /Output/DLM-DFA-Ricker/*.rds
 /Output/MARSS-Ricker/*.rds
 
+#Ignore Curry's Doc Folder
+/doc
