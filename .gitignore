@@ -43,5 +43,13 @@ rsconnect/
 /Output/DLM-DFA-Ricker/*.rds
 /Output/MARSS-Ricker/*.rds
 
+#Ignore large output .csv files
+/Output/DLM-Ricker/effect.df.csv
+/Output/DLM-Ricker-plus/effect.df.csv
+/Output/DLM-DFA-Ricker/effect.df.csv
+/Output/MARSS-Ricker/effect.df.csv
+
+
+
 #Ignore Curry's Doc Folder
 /doc
