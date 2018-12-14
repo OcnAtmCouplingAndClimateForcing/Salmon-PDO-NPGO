@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml
+      packageId="knb.92102.2" system="knb"
+      xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+      xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+      xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+<!-- Person who filled in the catalog entry form:   -->
+<!-- Form filled out at Tue Nov 21 01:44:32 2017 GMT -->
+<access authSystem="knb" order="allowFirst">
+<allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>http://orcid.org/0000-0003-4703-1974</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Sockeye salmon brood tables, northeastern Pacific, 1922-2016</title>
+<creator id="147491412692844">
+<individualName>
+<givenName>Jeanette</givenName>
+<surName>Clark</surName>
+</individualName>
+<organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+<address></address>
+<electronicMailAddress>jclark@nceas.ucsb.edu</electronicMailAddress>
+</creator>
+<creator id="9363437076168534">
+<individualName>
+<givenName>Rich</givenName>
+<surName>Brenner</surName>
+</individualName>
+<organizationName>Alaska Department of Fish and Game</organizationName>
+<address></address>
+<electronicMailAddress>richard.brenner@alaska.gov</electronicMailAddress>
+</creator>
+<metadataProvider id="3039500420886440">
+<individualName>
+<givenName>Jeanette</givenName>
+<surName>Clark</surName>
+</individualName>
+<organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+<address></address>
+<electronicMailAddress>jclark@nceas.ucsb.edu</electronicMailAddress>
+</metadataProvider>
+<pubDate>2017-11-20</pubDate>
+<abstract>
+<para>This dataset consists of compiled brood tables from Washington, British Columbia, and Alaska. Brood tables are compiled according to stock in the file BroodTables.csv, and stock information, including the source of the tables, is located in the StockInfo.csv file.</para>
+</abstract>
+<intellectualRights>
+<para>no restrictions</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>1922</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2016</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>northeast Pacific rivers</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-122.0000</westBoundingCoordinate>
+<eastBoundingCoordinate>-161.0000</eastBoundingCoordinate>
+<northBoundingCoordinate>47.5000</northBoundingCoordinate>
+<southBoundingCoordinate>59.0000</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact id="1131392445849499">
+<individualName>
+<givenName>Jeanette</givenName>
+<surName>Clark</surName>
+</individualName>
+<organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+<address></address>
+<electronicMailAddress>jclark@nceas.ucsb.edu</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<para>brood tables were organized and run through quality control</para>
+</section></description></methodStep>
+</methods>
+<otherEntity id="fb394cefedb417283dcc0925d791b8e902b8f168001" scope="document">
+            <entityName>StockInfo.csv</entityName>
+            <physical scope="document">
+                <objectName>StockInfo.csv</objectName>
+                <size>7683</size>
+                <authentication method="SHA1">fb394cefedb417283dcc0925d791b8e902b8f168</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="fb394cefedb417283dcc0925d791b8e902b8f168002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.92103.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0003-4703-1974</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="a00799de91b62663abe3993b2a1cfc1c3e9cfedf001" scope="document">
+            <entityName>BroodTables.csv</entityName>
+            <physical scope="document">
+                <objectName>BroodTables.csv</objectName>
+                <size>347705</size>
+                <authentication method="SHA1">a00799de91b62663abe3993b2a1cfc1c3e9cfedf</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="a00799de91b62663abe3993b2a1cfc1c3e9cfedf002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.92100.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0003-4703-1974</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+</dataset>
+</eml:eml>

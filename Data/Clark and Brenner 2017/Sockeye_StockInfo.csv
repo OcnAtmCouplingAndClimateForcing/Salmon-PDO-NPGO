@@ -1,0 +1,55 @@
+Stock.ID,Species,Stock,Ocean Region,Region,Sub.Region,Jurisdiction,Lat,Lon,Source
+101,Sockeye,Washington,WC,WA,WA,WA,47.48,122.42,Aaron Dufault (Washington Department of Fish and Wildlife)
+102,Sockeye,E.Stuart,WC,Fraser River,Fraser Early Stuart,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+103,Sockeye,Bowron,WC,Fraser River,Fraser Early Summer,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+104,Sockeye,Fennell,WC,Fraser River,Fraser Early Summer,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+105,Sockeye,Gates,WC,Fraser River,Fraser Early Summer,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+106,Sockeye,Nadina,WC,Fraser River,Fraser Early Summer,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+107,Sockeye,Pitt,WC,Fraser River,Fraser Early Summer,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+108,Sockeye,Raft,WC,Fraser River,Fraser Early Summer,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+109,Sockeye,Scotch,WC,Fraser River,Fraser Early Summer,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+110,Sockeye,Seymour,WC,Fraser River,Fraser Early Summer,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+111,Sockeye,Chilko,WC,Fraser River,Fraser Summer,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+112,Sockeye,L.Stuart,WC,Fraser River,Fraser Summer,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+113,Sockeye,Quesnel,WC,Fraser River,Fraser Summer,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+114,Sockeye,Stellako,WC,Fraser River,Fraser Summer,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+115,Sockeye,Birkenhead,WC,Fraser River,Fraser Late,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+116,Sockeye,Cultus,WC,Fraser River,Fraser Late,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+117,Sockeye,Harrison,WC,Fraser River,Fraser Late,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+118,Sockeye,L.Shuswap,WC,Fraser River,Fraser Late,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+119,Sockeye,Portage,WC,Fraser River,Fraser Late,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+120,Sockeye,Weaver,WC,Fraser River,Fraser Late,BC,49.12,123.06,"Sue Grant, Bronwyn McDonald (Fisheries and Oceans Canada) and Mike Lapointe (Pacific Salmon Commission)"
+121,Sockeye,Great Central,WC,BC South,Barkley Sound,BC,49.24,124.82,Diana Dobson (Fisheries and Oceans Canada)
+122,Sockeye,Sproat,WC,BC South,Barkley Sound,BC,49.24,124.82,Diana Dobson (Fisheries and Oceans Canada)
+123,Sockeye,Long Lake,WC,BC Central,BC Central,BC,51.29,127.68,Karl English (LGL Limited)
+124,Sockeye,Owikeno Lake,WC,BC Central,BC Central,BC,51.68,127.25,Karl English (LGL Limited)
+129,Sockeye,Redoubt,WC,SEAK,SEAK,AK,56.9,135.33,"Rich Brenner (Alaska Department of Fish and Game, Juneau)"
+130,Sockeye,Speel,WC,SEAK,SEAK,AK,57.97,133.87,"Rich Brenner (Alaska Department of Fish and Game, Juneau)"
+131,Sockeye,Chilkoot,WC,SEAK,SEAK,AK,58.92,135.23,"Rich Brenner (Alaska Department of Fish and Game, Juneau)"
+138,Sockeye,Copper,GOA,PWS,PWS,AK,60.46,144.96,"Rich Brenner (Alaska Department of Fish and Game, Juneau)"
+139,Sockeye,Coghill,GOA,PWS,PWS,AK,61.06,147.94,"Rich Brenner (Alaska Department of Fish and Game, Juneau)"
+140,Sockeye,Eshamy,GOA,PWS,PWS,AK,60.47,147.94,"Rich Brenner (Alaska Department of Fish and Game, Juneau)"
+141,Sockeye,Kenai,GOA,Cook Inlet,Upper Cook Inlet,AK,60.54,151.28,"Mark Willette (Alaska Department of Fish and game, Upper Cook Inlet"
+142,Sockeye,Kasilof,GOA,Cook Inlet,Upper Cook Inlet,AK,60.39,151.3,"Mark Willette (Alaska Department of Fish and game, Upper Cook Inlet"
+143,Sockeye,Crescent,GOA,Cook Inlet,Upper Cook Inlet,AK,60.19,152.66,"Mark Willette (Alaska Department of Fish and game, Upper Cook Inlet"
+144,Sockeye,Frazer,GOA,Kodiak,Kodiak,AK,57.13,154.04,"Kevin Schaberg (Alaska Department of Fish and game, Kodiak)"
+145,Sockeye,Ayakulik,GOA,Kodiak,Kodiak,AK,57.2,154.54,"Kevin Schaberg (Alaska Department of Fish and game, Kodiak)"
+146,Sockeye,E. Upper Station,GOA,Kodiak,Kodiak,AK,57.06,154.36,"Kevin Schaberg (Alaska Department of Fish and game, Kodiak)"
+147,Sockeye,L. Upper Station,GOA,Kodiak,Kodiak,AK,57.06,154.36,"Kevin Schaberg (Alaska Department of Fish and game, Kodiak)"
+149,Sockeye,Early Karluk,GOA,Kodiak,Kodiak,AK,57.57,154.45,"Kevin Schaberg (Alaska Department of Fish and game, Kodiak)"
+150,Sockeye,Late Karluk,GOA,Kodiak,Kodiak,AK,57.57,154.45,"Kevin Schaberg (Alaska Department of Fish and game, Kodiak)"
+151,Sockeye,Black Lake,GOA,Chignik,Chignik,AK,56.28,158.64,"Kevin Schaberg (Alaska Department of Fish and game, Kodiak)"
+152,Sockeye,Chignik Lake,GOA,Chignik,Chignik,AK,56.28,158.64,"Kevin Schaberg (Alaska Department of Fish and game, Kodiak)"
+153,Sockeye,Nelson,BS,AK Peninsula,AK Peninsula,AK,55.96,161.28,"Kevin Schaberg (Alaska Department of Fish and game, Kodiak)"
+154,Sockeye,Bear,BS,AK Peninsula,AK Peninsula,AK,56.16,160.45,"Kevin Schaberg (Alaska Department of Fish and game, Kodiak)"
+155,Sockeye,Ugashik,BS,Bristol Bay,Bristol Bay South,AK,57.5,157.6,Curry Cunningham (University of Alaska/University of Washington)
+156,Sockeye,Egegik,BS,Bristol Bay,Bristol Bay South,AK,58.25,157.38,Curry Cunningham (University of Alaska/University of Washington)
+157,Sockeye,Naknek,BS,Bristol Bay,Bristol Bay South,AK,58.78,157.08,Curry Cunningham (University of Alaska/University of Washington)
+158,Sockeye,Alagnak,BS,Bristol Bay,Bristol Bay South,AK,58.85,158.5,Curry Cunningham (University of Alaska/University of Washington)
+159,Sockeye,Kvichak,BS,Bristol Bay,Bristol Bay South,AK,58.85,157.03,Curry Cunningham (University of Alaska/University of Washington)
+160,Sockeye,Nushagak,BS,Bristol Bay,Bristol Bay North,AK,58.82,158.49,Curry Cunningham (University of Alaska/University of Washington)
+161,Sockeye,Wood,BS,Bristol Bay,Bristol Bay North,AK,58.82,158.62,Curry Cunningham (University of Alaska/University of Washington)
+162,Sockeye,Igushik,BS,Bristol Bay,Bristol Bay North,AK,58.68,158.8,Curry Cunningham (University of Alaska/University of Washington)
+163,Sockeye,Togiak,BS,Bristol Bay,Bristol Bay North,AK,58.95,160.45,Greg Buck (Alaska Department of Fish and Game)
+164,Sockeye,Goodnews,BS,AYK,AYK,AK,59.11,161.62,"Zachary Liller (Alaska Department of Fish and game, Arctic-Yukon-Kuskokwim)"
+165,Sockeye,Early Russian River,GOA,Cook Inlet,Upper Cook Inlet,AK,60.54,151.28,"Zachary Liller (Alaska Department of Fish and game, Arctic-Yukon-Kuskokwim)"

@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="urn:uuid:653011ae-5ea1-4f87-a76e-2e108f4ca7be" system="https://arcticdata.io" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+  <dataset>
+    <title>Chinook salmon brood tables, northeast Pacific, 1976-2015</title>
+    <creator id="8227868727227461">
+      <individualName>
+        <givenName>Jeanette</givenName>
+        <surName>Clark</surName>
+      </individualName>
+      <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+      <electronicMailAddress>jclark@nceas.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="8851031690563878">
+      <individualName>
+        <givenName>Stephanie</givenName>
+        <surName>Freund</surName>
+      </individualName>
+      <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+    </creator>
+    <metadataProvider id="7683069755762233">
+      <individualName>
+        <givenName>Jeanette</givenName>
+        <surName>Clark</surName>
+      </individualName>
+      <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+      <electronicMailAddress>jclark@nceas.ucsb.edu</electronicMailAddress>
+    </metadataProvider>
+    <pubDate>2018-01-22</pubDate>
+    <abstract>Brood tables, also called run reconstructions, utilize annual estimates of the total run (commercial catch plus escapement), and samples of ages, to estimate the number of recruits per age class. These data are useful for salmon biologists to understand salmon productivity and salmon life histories. These data can come in a number of different formats, but generally follow the pattern of: rows for each brood year, and columns for the estimated number of fish in each age class. This dataset consists of reformatted chinook salmon brood tables that have been compiled together. These datasets were gathered as part of the State of Alaska Salmon and People project (https://alaskasalmonandpeople.org/). The file "ChinookBroodTables_FW_SW_Age.csv" includes stocks where age classes are in freshwater/saltwater notation (number of winters in freshwater, followed by number of winters in saltwater). The file "ChinookBroodTables_TotalAge.csv" includes stocks where age classes are presented as total age (number of winters in freshwater + number of winters at sea + 1). Stocks that have data in freshwater/saltwater age had their total age calculated and were then added to the total age table. The file chinookBroodTableProcessing.Rmd details the data reformatting steps in R Markdown, and chinookBroodTableProcessing.html is the html output of the Rmd file. The file Stock_Info.csv lists the chinook stocks that are included in this package, and SourceInfoChinookBroodTables.csv lists the data sources for each Source.ID in the data files.</abstract>
+    <intellectualRights>
+      <para>other</para>
+      <para>ADF&amp;G retains intellectual property rights to data collected by or for ADF&amp;G. Any dissemination of the data must credit ADF&amp;G as the source, with a disclaimer that exonerates the department for errors or deficiencies in reproduction, subsequent analysis, or interpretation. Please see http://www.adfg.alaska.gov/index.cfm?adfg=home.copyright for further information.</para>
+    </intellectualRights>
+    <distribution>
+      <offline>
+        <mediumName>digital </mediumName>
+      </offline>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Alaska, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-172</westBoundingCoordinate>
+          <eastBoundingCoordinate>-130</eastBoundingCoordinate>
+          <northBoundingCoordinate>71.83</northBoundingCoordinate>
+          <southBoundingCoordinate>51.33</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1959</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Oncorhynchus</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>Oncorhynchus tshawytscha</taxonRankValue>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact id="1990740202335885">
+      <individualName>
+        <givenName>Jeanette</givenName>
+        <surName>Clark</surName>
+      </individualName>
+      <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+      <electronicMailAddress>jclark@nceas.ucsb.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Table Construction</title>
+            <para>Available escapement, harvest, and age data associated with each stock or combination of stocks to be examined were compiled from research reports, management reports, and unpublished historical databases. The team evaluated the type, quality, and amount of data for each stock according to criteria described in Clark et al. 2014.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>State of Alaska’s Salmon and People</title>
+      <personnel>
+        <individualName>
+          <givenName>Matt</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <organizationName>NCEAS/UCSB</organizationName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Ian</givenName>
+          <surName>Dutton</surName>
+        </individualName>
+        <organizationName>Nautilus Impact Investing</organizationName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Frank</givenName>
+          <surName>Davis</surName>
+        </individualName>
+        <organizationName>NCEAS/UCSB</organizationName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Jeanette</givenName>
+          <surName>Clark</surName>
+        </individualName>
+        <organizationName>NCEAS/UCSB</organizationName>
+        <role>dataCoordinator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Jared</givenName>
+          <surName>Kibele</surName>
+        </individualName>
+        <organizationName>NCEAS/UCSB</organizationName>
+        <role>programmer</role>
+      </personnel>
+      <abstract>
+        <para>State of Alaska’s Salmon and People (SASAP) and SASAP Data Task Force are both funded by the Gordon and Betty Moore Foundation. SASAP is a synthesis science project aimed to create an equitable decision-making platform for all stakeholders by addressing data gaps in Alaska’s salmon system through information synthesis, collaboration and stakeholder engagement. The SASAP Data Task Force assists the synthesis research effort through data collection, homogenization, management, and sustainability, under the direction of the synthesis project leads. The result of the efforts of these two projects is an Alaskan Salmon data catalog, containing all of the original and derived data products resulting from the synthesis research.</para>
+      </abstract>
+      <funding>
+        <para>State of Alaska’s Salmon and People (Gordon and Betty Moore Foundation Award 5124)</para>
+        <para>Data Task Forces for Better Synthesis Studies (Gordon and Betty Moore Foundation Award 5451)</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>ChinookBroodTables_TotalAge.csv</entityName>
+      <entityDescription>Chinook salmon brood tables</entityDescription>
+      <physical scope="document">
+        <objectName>ChinookBroodTables_TotalAge.csv</objectName>
+        <size unit="bytes">41664</size>
+        <authentication method="SHA1">d316a6187a4c5aaae5a1b1778f89f78db8ab48ee</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:b3e40da6-3fcd-444f-a1a5-c03b7afdc8e1</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Stock.ID</attributeName>
+          <attributeDefinition>Unique stock identifer</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique stock identifer</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Salmon species</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Salmon species</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Stock</attributeName>
+          <attributeDefinition>Name of stock</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of stock</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Region</attributeName>
+          <attributeDefinition>SASAP Region</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>SASAP Region</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UseFlag</attributeName>
+          <attributeDefinition>Indicates if data should be used in analysis</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>0 = do not use data, 1 = use data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>BroodYear</attributeName>
+          <attributeDefinition>Brood year</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TotalEscapement</attributeName>
+          <attributeDefinition>Total escapement value</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no escapement data exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R2</attributeName>
+          <attributeDefinition>number of total age 2 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R3</attributeName>
+          <attributeDefinition>number of total age 3 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R4</attributeName>
+          <attributeDefinition>number of total age 4 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R5</attributeName>
+          <attributeDefinition>number of total age 5 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R6</attributeName>
+          <attributeDefinition>number of total age 6 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R7</attributeName>
+          <attributeDefinition>number of total age 7 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R8</attributeName>
+          <attributeDefinition>number of total age 8 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TotalRecruits</attributeName>
+          <attributeDefinition>total number of recruits across age classes</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>all age classes lack valid estimates</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>ChinookBroodTables_FW_SW_Age.csv</entityName>
+      <entityDescription>Chinook salmon brood tables in freshwater/saltwater age</entityDescription>
+      <physical scope="document">
+        <objectName>ChinookBroodTables_FW_SW_Age.csv</objectName>
+        <size unit="bytes">23473</size>
+        <authentication method="SHA1">949828bcb36ed9d3289c31e7ac1e5ca7c4948257</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:2dd0cf28-faf1-4b16-ab31-28c792e75d92</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Stock.ID</attributeName>
+          <attributeDefinition>Unique stock identifer</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique stock identifer</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Salmon species</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Salmon species</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Stock</attributeName>
+          <attributeDefinition>Name of stock</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of stock</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Region</attributeName>
+          <attributeDefinition>SASAP Region</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>SASAP Region</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UseFlag</attributeName>
+          <attributeDefinition>Indicates if data should be used in analysis</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>0 = do not use data, 1 = use data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>BroodYear</attributeName>
+          <attributeDefinition>Brood year</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TotalEscapement</attributeName>
+          <attributeDefinition>Total escapement value</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no escapement data exist</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R0.2</attributeName>
+          <attributeDefinition>number of age 0.2 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R0.3</attributeName>
+          <attributeDefinition>number of age 0.3 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R0.4</attributeName>
+          <attributeDefinition>number of age 0.4 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R0.5</attributeName>
+          <attributeDefinition>number of age 0.5 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R0.6</attributeName>
+          <attributeDefinition>number of age 0.6 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R1.1</attributeName>
+          <attributeDefinition>number of age 1.1 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R1.2</attributeName>
+          <attributeDefinition>number of age 1.2 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R1.3</attributeName>
+          <attributeDefinition>number of age 1.3 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R1.4</attributeName>
+          <attributeDefinition>number of age 1.4 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R1.5</attributeName>
+          <attributeDefinition>number of age 1.5 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R1.6</attributeName>
+          <attributeDefinition>number of age 1.6 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R2.1</attributeName>
+          <attributeDefinition>number of age 2.1 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R2.2</attributeName>
+          <attributeDefinition>number of age 2.2 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R2.3</attributeName>
+          <attributeDefinition>number of age 2.3 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R2.4</attributeName>
+          <attributeDefinition>number of age 2.4 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>R2.5</attributeName>
+          <attributeDefinition>number of age 2.5 recruits</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no valid estimates for this age class</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TotalRecruits</attributeName>
+          <attributeDefinition>total number of recruits across age classes</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>all age classes lack valid estimates</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>StockInfo_Chinook.csv</entityName>
+      <entityDescription>Stock info for chinook brood tables</entityDescription>
+      <physical scope="document">
+        <objectName>StockInfo_Chinook.csv</objectName>
+        <size unit="bytes">1550</size>
+        <authentication method="SHA1">b2d3fce3ec16f9e13614e90d6271b036ef46e0ed</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:d8475026-0d7e-46ff-b24e-949723ea79b7</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Stock.ID</attributeName>
+          <attributeDefinition>Unique stock identifer</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique stock identifer</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Salmon species</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Salmon species</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Stock</attributeName>
+          <attributeDefinition>Name of stock</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of stock</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ocean.Region</attributeName>
+          <attributeDefinition>Ocean Region where stock is from: Gulf of Alaska (GOA) or Bering Sea (BS)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Ocean Region where stock is from: Gulf of Alaska (GOA) or Bering Sea (BS)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Region</attributeName>
+          <attributeDefinition>SASAP Region where stock is from</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>SASAP Region where stock is from</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sub.Region</attributeName>
+          <attributeDefinition>Sub-region where stock is from</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sub-region where stock is from</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Jurisdiction</attributeName>
+          <attributeDefinition>Jurisidiction</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Jurisidiction</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Lat</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Lon</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Source.ID</attributeName>
+          <attributeDefinition>Data source where stock data came from</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Data source where stock data came from</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>SourceInfoChinookBroodTables.csv</entityName>
+      <entityDescription>Source info for chinook brood tables</entityDescription>
+      <physical scope="document">
+        <objectName>SourceInfoChinookBroodTables.csv</objectName>
+        <size unit="bytes">1905</size>
+        <authentication method="SHA1">a9270fa84c6f0dd4cb501a20390860f6e2bc9c7e</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:45ee66aa-61cc-4764-8ca8-cfbdb7ea6cf5</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Source.ID</attributeName>
+          <attributeDefinition>Unique data source identifer</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique data source identifer</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Source</attributeName>
+          <attributeDefinition>ADFG document from which data were extracted</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ADFG document from which data were extracted</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Title</attributeName>
+          <attributeDefinition>Title of the source document</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Title of the source document</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>URL</attributeName>
+          <attributeDefinition>Link to the source document</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Link to the source document</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity id="urn:uuid:6d891c4d-ebc3-4085-8ab5-bcae37b7d92d" scope="document">
+      <entityName>chinookBroodTableProcessing.Rmd</entityName>
+      <physical scope="document">
+        <objectName>chinookBroodTableProcessing.Rmd</objectName>
+        <size unit="bytes">19372</size>
+        <authentication method="SHA1">9e2873d7133bfbb04b71fae98316c8fef7ef4462</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/R</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:6d891c4d-ebc3-4085-8ab5-bcae37b7d92d</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity id="urn:uuid:308ff4ec-3f9a-45d3-a7e1-8dd979bdf1d8" scope="document">
+      <entityName>chinookBroodTableProcessing.html</entityName>
+      <physical scope="document">
+        <objectName>chinookBroodTableProcessing.html</objectName>
+        <size unit="bytes">1074250</size>
+        <authentication method="SHA1">f168d912b9bafce9389643db2820ec5b98be53d9</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/html</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:308ff4ec-3f9a-45d3-a7e1-8dd979bdf1d8</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>
