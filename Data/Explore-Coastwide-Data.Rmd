@@ -1,0 +1,241 @@
+---
+title: "Explore-Coastwide-Data"
+author: "Dr. Curry J. Cunningham"
+date: "2/5/2019"
+output:
+  html_document:
+    highlight: espresso
+    number_sections: yes
+    smooth_scroll: yes
+    theme: sandstone
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
+require(tidyverse)
+require(kableExtra)
+require(dplyr)
+require(ggthemes)
+```
+
+#Description of Data
+* Salmon stock-recruitment data for populations in Alaska, BC, and Puget Sound were compiled from various sources by C. Cunningham (AFSC).
+* Salmon SR data from Washington, Oregon, and California were compiled by J. Gosselin and B. Burke (NWFSC) 
+* These two datasets were combined in late November, 2018. 
+
+#Structure of Data
+Data is now stored in object called  `AK-WCoast-Salmon-SR.csv`
+```{r}
+dat <- read.csv("AK-WCoast-Salmon-SR.csv", header=TRUE)
+```
+
+What is the structure of this data frame?
+```{r}
+kable(head(dat), align="crr") %>% #, digits=c(3,1,1)) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+Recorded brood years run from `r min(dat$broodYr)` to `r max(dat$broodYr)`.
+
+#Preliminary Calculations
+First we need to add recruits-per-spawner and log recruits-per-spawner
+```{r}
+dat$rps <- dat$rec/dat$spawn
+dat$ln.rps <- log(dat$rps)
+kable(head(dat), align="crr") %>% #, digits=c(3,1,1)) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+#Data Quality Control
+We also need to screen out non-sensical values reported in the data, specifically:
+
+* ln.rps is infinite, i.e. spawners were reported as zero
+* ln.rps is `NA`, i.e. either `rec` or `spawn` was blank
+* We also filter filter brood years: 
+
+  + `broodYr > 1950` as this is the start of the NPGO index.
+  + `broodYr <= 2010` to ensure all complete return of age classes for all species. 
+
+```{r}
+dat.2 <- dat %>% filter(!is.infinite(ln.rps), !is.na(ln.rps), broodYr>=1950, broodYr<=2010)
+```
+
+So, the total number of observations is: `r nrow(dat.2)`.
+
+#Explore Data
+##Number of stocks by species and region
+```{r}
+sum.stocks_species.region <- dat.2 %>% group_by(species, region) %>% summarize('n.stocks'=length(unique(stock)))
+# kable(sum.stocks_species.region, align="crr") %>% #, digits=c(3,1,1)) %>%
+  # kable_styling(bootstrap_options = c("striped", "hover"))
+
+g <- ggplot(sum.stocks_species.region, aes(x=region, y=n.stocks, fill=species)) +
+       theme_linedraw() +
+       scale_fill_colorblind() +
+       geom_bar(stat='identity', position='stack') +
+       theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+       ylab('Number of Stocks')
+plot(g)
+```
+
+##Number of Years of Data by species and region
+```{r}
+sum.years_species.region <- dat.2 %>% group_by(species, region) %>% summarize('n.years'=n())
+# kable(sum.years_species.region, align="crr") %>% #, digits=c(3,1,1)) %>%
+  # kable_styling(bootstrap_options = c("striped", "hover"))
+
+g <- ggplot(sum.years_species.region, aes(x=region, y=n.years, fill=species)) +
+       theme_linedraw() +
+       scale_fill_colorblind() +
+       geom_bar(stat='identity', position='stack') +
+       theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+       ylab('Number of Years with Data')
+plot(g)
+```
+
+##Number of Regions is now: `r length(unique(dat.2$region))`.
+
+#Plot Stock-Recruitment Data
+##Species Combined
+###Facet: species, Color: region
+```{r, echo=FALSE, fig.height=8, fig.width=8}
+g <- ggplot(dat.2, aes(x=broodYr, y=ln.rps, color=region, group=stock)) +
+       theme_linedraw() +
+       geom_line(alpha=0.25) +
+       facet_wrap(~species, scales='free_y') +
+       theme(legend.position='none')
+plot(g)
+```
+
+###Facet: region, Color: species
+```{r, echo=FALSE, fig.height=8, fig.width=8}
+g <- ggplot(dat.2, aes(x=broodYr, y=ln.rps, color=species, group=stock)) +
+       theme_linedraw() +
+       scale_color_colorblind() +
+       geom_line(alpha=0.25) +
+       facet_wrap(~region, scales='free_y') +
+       theme(legend.position='bottom')
+plot(g)
+```
+
+##Chinook
+###Data
+```{r, echo=FALSE, warn=FALSE, fig.height=8, fig.width=8}
+temp.spec <- 'Chinook'
+g <- ggplot(filter(dat.2, species==temp.spec), aes(x=broodYr, y=ln.rps, color=stock, group=factor(stock))) +
+       geom_line(alpha=0.25) +
+       facet_wrap(~region) +
+       theme(legend.position='none') +
+       ggtitle(paste(temp.spec,'Salmon'))
+       # geom_smooth(aes(group=region))
+plot(g)
+```
+
+###Data + Smooth
+```{r, echo=FALSE, warn=FALSE, fig.height=8, fig.width=8}
+g <- ggplot(filter(dat.2, species==temp.spec), aes(x=broodYr, y=ln.rps, color=region, group=factor(stock))) +
+       geom_line(alpha=0.25) +
+       facet_wrap(~region) +
+       theme(legend.position='none') +
+       ggtitle(paste(temp.spec,'Salmon')) +
+       geom_smooth(aes(group=region))
+plot(g)
+```
+
+##Sockeye
+###Data
+```{r, echo=FALSE, warn=FALSE, fig.height=8, fig.width=8}
+temp.spec <- 'Sockeye'
+g <- ggplot(filter(dat.2, species==temp.spec), aes(x=broodYr, y=ln.rps, color=stock, group=factor(stock))) +
+       geom_line(alpha=0.25) +
+       facet_wrap(~region) +
+       theme(legend.position='none') +
+       ggtitle(paste(temp.spec,'Salmon'))
+       # geom_smooth(aes(group=region))
+plot(g)
+```
+
+###Data + Smooth
+```{r, echo=FALSE, warn=FALSE, fig.height=8, fig.width=8}
+g <- ggplot(filter(dat.2, species==temp.spec), aes(x=broodYr, y=ln.rps, color=region, group=factor(stock))) +
+       geom_line(alpha=0.25) +
+       facet_wrap(~region) +
+       theme(legend.position='none') +
+       ggtitle(paste(temp.spec,'Salmon')) +
+       geom_smooth(aes(group=region))
+plot(g)
+```
+
+##Pink
+###Data
+```{r, echo=FALSE, warn=FALSE, fig.height=8, fig.width=8}
+temp.spec <- 'Pink'
+g <- ggplot(filter(dat.2, species==temp.spec), aes(x=broodYr, y=ln.rps, color=stock, group=factor(stock))) +
+       geom_line(alpha=0.25) +
+       facet_wrap(~region) +
+       theme(legend.position='none') +
+       ggtitle(paste(temp.spec,'Salmon'))
+       # geom_smooth(aes(group=region))
+plot(g)
+```
+
+###Data + Smooth
+```{r, echo=FALSE, warn=FALSE, fig.height=8, fig.width=8}
+g <- ggplot(filter(dat.2, species==temp.spec), aes(x=broodYr, y=ln.rps, color=region, group=factor(stock))) +
+       geom_line(alpha=0.25) +
+       facet_wrap(~region) +
+       theme(legend.position='none') +
+       ggtitle(paste(temp.spec,'Salmon')) +
+       geom_smooth(aes(group=region))
+plot(g)
+```
+
+##Chum
+###Data
+```{r, echo=FALSE, warn=FALSE, fig.height=8, fig.width=8}
+temp.spec <- 'Chum'
+g <- ggplot(filter(dat.2, species==temp.spec), aes(x=broodYr, y=ln.rps, color=stock, group=factor(stock))) +
+       geom_line(alpha=0.25) +
+       facet_wrap(~region) +
+       theme(legend.position='none') +
+       ggtitle(paste(temp.spec,'Salmon'))
+       # geom_smooth(aes(group=region))
+plot(g)
+```
+
+###Data + Smooth
+```{r, echo=FALSE, warn=FALSE, fig.height=8, fig.width=8}
+g <- ggplot(filter(dat.2, species==temp.spec), aes(x=broodYr, y=ln.rps, color=region, group=factor(stock))) +
+       geom_line(alpha=0.25) +
+       facet_wrap(~region) +
+       theme(legend.position='none') +
+       ggtitle(paste(temp.spec,'Salmon')) +
+       geom_smooth(aes(group=region))
+plot(g)
+```
+
+##Coho
+###Data
+```{r, echo=FALSE, warn=FALSE, fig.height=8, fig.width=8}
+temp.spec <- 'Coho'
+g <- ggplot(filter(dat.2, species==temp.spec), aes(x=broodYr, y=ln.rps, color=stock, group=factor(stock))) +
+       geom_line(alpha=0.25) +
+       facet_wrap(~region) +
+       theme(legend.position='none') +
+       ggtitle(paste(temp.spec,'Salmon'))
+       # geom_smooth(aes(group=region))
+plot(g)
+```
+
+###Data + Smooth
+```{r, echo=FALSE, warn=FALSE, fig.height=8, fig.width=8}
+g <- ggplot(filter(dat.2, species==temp.spec), aes(x=broodYr, y=ln.rps, color=region, group=factor(stock))) +
+       geom_line(alpha=0.25) +
+       facet_wrap(~region) +
+       theme(legend.position='none') +
+       ggtitle(paste(temp.spec,'Salmon')) +
+       geom_smooth(aes(group=region))
+plot(g)
+```
+
