@@ -1,0 +1,210 @@
+---
+title: "PDO-NPGO GLMM and GAMM"
+author: "Dr. Curry J. Cunningham"
+date: "2/5/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+```
+
+#Purpose
+The purpose of this analysis is to use generalized additive mixed-effects models **GAMMs** to describe how the relationship between **PDO** and **NPGO**, and the productivity of Alaska, British Columbia, Washington, Oregon, and California salmon has **changed** over time. 
+
+#Methods
+##Load required packages
+```{r}
+require(tidyverse)
+require(mgcv)
+require(gamm4)
+require(lme4)
+require(kableExtra)
+require(MuMIn)
+require(coefplot2)
+```
+
+##Load and filter SR data
+```{r}
+dat <- read.csv(file.path("data","AK-WCoast-Salmon-SR.csv"), header=TRUE, stringsAsFactors=TRUE)
+#Add rps and ln.rps
+dat$rps <- dat$rec/dat$spawn
+dat$ln.rps <- log(dat$rps)
+#Filter for nonsense recruits-per-spawner values and limit year range.
+dat.2 <- dat %>% filter(!is.infinite(ln.rps), !is.na(ln.rps), broodYr>=1950, broodYr<=2010)
+```
+
+##Bind with NPGO and PDO data
+First we need to define the species-specific offsets from the brood year for covariate interactions. 
+
+The current species are: `r unique(dat.2$species)`.
+
+```{r}
+species <- unique(dat.2$species)
+offsets <- data.frame(species,c(2,2,1,2,3))
+names(offsets) <- c("species","offset")
+#Print Out
+kable(head(offsets), align="crr") %>% #, digits=c(3,1,1)) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+```{r}
+covar.dat <- read.csv(file.path("data","Covariates","covar.dat.csv"))
+```
+
+Lets loop through the data and combine the correct covariate data
+
+```{r}
+dat.2$PDO <- NA
+dat.2$NPGO <- NA
+
+i<- 1
+for(i in 1:nrow(dat.2)) {
+  temp.year <- dat.2$broodYr[i]
+  covar.year <- temp.year + offsets$offset[offsets$species==dat.2$species[i]]
+  #Add Covariate value for the appropriate offset year
+  dat.2$PDO[i] <- covar.dat$avg[covar.dat$name=='pdo' & covar.dat$Year==covar.year] #PDO
+  dat.2$NPGO[i] <- covar.dat$avg[covar.dat$name=='npgo' & covar.dat$Year==covar.year] #PDO
+} #next i
+```
+
+Lets also add a factor for before/after the 1989 regime shift
+```{r}
+dat.2$era <- ifelse(dat.2$broodYr<1990, "pre", "post")
+
+
+```
+
+
+##Fit GLMMs
+We will fit a series of generalized linear mixed models with a fixed breakpoint before (<=) and after **1989**. 
+
+###Results
+
+##Fit GAMMs
+We will fit variable coefficient GAMs describing changes in the effect of **PDO** and **NPGO** over time. 
+
+###Sockeye
+
+```{r}
+temp.dat <- dat.2 %>% filter(species=="Sockeye")
+```
+
+Lets check and see if there is evidence for a single **PDO** effect or assuming this effect varies randomly among stocks. 
+
+```{r}
+#Common PDO effect across stocks
+m <- lme(ln.rps ~ 1 + stock:spawn + PDO, random= ~1 | stock, 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+           control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="ML")
+
+m.5 <- lme(ln.rps ~ 1 + PDO:region, random= ~1 | stock, 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+           control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="ML")
+m.51 <- lme(ln.rps ~ 1 + PDO + PDO:region, random= ~1 | stock, 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+           control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="ML")
+m.52 <- lme(ln.rps ~ 1 + region + PDO + PDO:region, random= ~1 | stock, 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+           control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="ML")
+m.53 <- lme(ln.rps ~ 1 + region + PDO:region, random= ~1 | stock, 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+           control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="ML")
+m.54 <- lme(ln.rps ~ 1 + PDO, random= ~1 | stock, 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+           control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="ML")
+AICc(m.5,m.51,m.52,m.53)
+
+#Treating PDO Effect as Random Among Populations - Fixed across time
+m1 <- lme(ln.rps ~ 1 + stock:spawn + PDO, random= ~1 + PDO | stock, 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+           control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="REML")
+
+AIC <- AICc(m, m1) 
+AIC <- AIC %>%
+  mutate(model=rownames(AIC)) %>%
+  mutate(dAICc=AICc-min(AICc)) %>%
+  arrange(AICc)
+AIC
+```
+
+Yes, it seems that there is evidence for a randomly varying **PDO** effect. 
+
+Lets check the same thing with **NPGO** effect
+```{r}
+#Common NPGO effect across stocks
+m <- lme(ln.rps ~ 1 + stock:spawn + NPGO, random= ~1 | stock, 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+           control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="REML")
+
+#Treating NPGO Effect as Random Among Populations - Fixed across time
+m1 <- lme(ln.rps ~ 1 + stock:spawn + NPGO, random= ~1 + NPGO | stock, 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+           control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="REML")
+
+AIC <- AICc(m, m1) 
+AIC <- AIC %>%
+  mutate(model=rownames(AIC)) %>%
+  mutate(dAICc=AICc-min(AICc)) %>%
+  arrange(AICc)
+AIC
+```
+
+Interestingly, there is a model-based preference for a common **NPGO** effect.
+
+But, on to the main question: **Has the effect of NPGO and PDO varied over time?**
+
+```{r}
+g <- gamm(ln.rps ~ 1 + stock:spawn + PDO, random=list(stock=~1), 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+              control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="ML")
+
+g1 <- gamm(ln.rps ~ 1 + stock:spawn + PDO:region, random=list(stock=~1),
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+              control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="ML")
+
+g2 <- gamm(ln.rps ~ 1 + stock:spawn + s(broodYr, bs='cr', by=I(PDO:region)), random=list(stock=~1), 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+              control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 500, msMaxIter = 500), method="ML")
+plot(g2$gam)
+
+
+g3 <- gamm(ln.rps ~ 1 + stock:spawn + s(broodYr, bs='cr', by=(PDO:region)), random=list(stock=~1), 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+              control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="ML")
+
+
+
+AICc(g,g1,g2)
+
+summary(g$gam)
+
+
+
+```
+
+###Chinook
+
+###Pink
+
+###Chum
+
+###Coho
+
+###Results
+
+#General Conclusions
+
