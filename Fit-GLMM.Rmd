@@ -1,0 +1,166 @@
+---
+title: "Testing for Breakpoint in PDO and NPGO Relationships"
+author: "Dr. Curry J. Cunningham"
+date: "2/5/2019"
+output:
+  html_document:
+    collapsed: no
+    fig_caption: yes
+    highlight: espresso
+    number_sections: yes
+    smooth_scroll: yes
+    theme: sandstone
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+```
+
+#Purpose
+The purpose of this analysis is to use generalized additive mixed-effects models **GAMMs** to describe how the relationship between **PDO** and **NPGO**, and the productivity of Alaska, British Columbia, Washington, Oregon, and California salmon has **changed** over time. 
+
+#Methods
+##Load required packages
+```{r}
+require(tidyverse)
+require(mgcv)
+require(gamm4)
+require(lme4)
+require(kableExtra)
+require(MuMIn)
+require(coefplot2)
+```
+
+##Load and filter SR data
+```{r}
+dat <- read.csv(file.path("data","AK-WCoast-Salmon-SR.csv"), header=TRUE, stringsAsFactors=TRUE)
+#Add rps and ln.rps
+dat$rps <- dat$rec/dat$spawn
+dat$ln.rps <- log(dat$rps)
+#Filter for nonsense recruits-per-spawner values and limit year range.
+dat.2 <- dat %>% filter(!is.infinite(ln.rps), !is.na(ln.rps), broodYr>=1950, broodYr<=2010)
+```
+
+##Bind with NPGO and PDO data
+First we need to define the species-specific offsets from the brood year for covariate interactions. 
+
+The current species are: `r unique(dat.2$species)`.
+
+```{r}
+species <- unique(dat.2$species)
+offsets <- data.frame(species,c(2,2,1,2,3))
+names(offsets) <- c("species","offset")
+#Print Out
+kable(head(offsets), align="crr") %>% #, digits=c(3,1,1)) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+```{r}
+covar.dat <- read.csv(file.path("data","Covariates","covar.dat.csv"))
+```
+
+Lets loop through the data and combine the correct covariate data
+
+```{r}
+dat.2$PDO <- NA
+dat.2$NPGO <- NA
+
+i<- 1
+for(i in 1:nrow(dat.2)) {
+  temp.year <- dat.2$broodYr[i]
+  covar.year <- temp.year + offsets$offset[offsets$species==dat.2$species[i]]
+  #Add Covariate value for the appropriate offset year
+  dat.2$PDO[i] <- covar.dat$avg[covar.dat$name=='pdo' & covar.dat$Year==covar.year] #PDO
+  dat.2$NPGO[i] <- covar.dat$avg[covar.dat$name=='npgo' & covar.dat$Year==covar.year] #PDO
+} #next i
+```
+
+Lets also add a factor for before/after the 1989 regime shift
+```{r}
+dat.2$era <- ifelse(dat.2$broodYr<1990, "pre", "post")
+
+
+```
+
+
+##Fit GLMMs
+We will fit a series of generalized linear mixed models with a fixed breakpoint before (<=) and after **1989**. 
+
+We will assume:
+* A stock-specific autocorrelated error structure.
+* Random effects structure where the intercept varies as a function of stock. 
+
+The full model formula is:
+```{r}
+full.form <- formula(ln.rps ~ 1 + stock:spawn + era + PDO:large.region + NPGO:large.region +
+                                                      PDO:large.region:era + NPGO:large.region:era)
+```
+
+###Sockeye
+
+```{r}
+temp.species <- "Sockeye"
+temp.dat <- dat.2 %>% filter(species==temp.species)
+```
+
+First we will fit the full model, with differences in **PDO** and **NPGO** by region and by region and era. 
+```{r}
+s.full <- lme(full.form, random= ~1 | stock, 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+           control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="ML")
+```
+
+First, lets test whether there is evidence for differences in **PDO** effects among eras, through a **likelihood ratio test** for the `PDO:large.region:era` term.
+
+```{r}
+s.1 <- update(s.full, fixed=.~.-PDO:large.region:era)
+anova(s.full, s.1)
+```
+We *cannot* reject the Null hypothesis that **era** has *no* effect on the **NPGO** relationship with population productivity, so we will *exclude* `PDO:large.region:era` in the `r temp.species` model. 
+
+Next, lets conduct a likelihood ratio test for the change in regional **NPGO** effects among **era**s.
+
+```{r}
+s.2 <- update(s.1, fixed=.~.-NPGO:large.region:era)
+anova(s.1, s.2)
+```
+
+Conversely, we *can* reject the Null hypothesis that **era** has *no* effect on the **NPGO** relationship with population productivity, so we will *include* `NPGO:large.region:era` in the `r temp.species` model.
+
+Finally, lets conduct a LRT for the **era** term
+```{r}
+s.3 <- update(s.1, fixed=.~.-era)
+anova(s.1, s.3)
+```
+Conversely, we *can* reject the Null hypothesis that **era** has *no* main effect, so we will *include* `era` in the `r temp.species` model.
+
+Now, lets estimate the final `r temp.species` model with **REML**, 
+```{r}
+s.final <- lme(formula(s.1), random= ~1 | stock, 
+              correlation=corAR1(form= ~ 1 | stock), data=temp.dat,
+           control=lmeControl(opt="optim", optimMethod="Nelder-Mead",
+                              maxIter = 200, msMaxIter = 200), method="REML")
+
+anova(s.final)
+```
+
+
+Diagnostics for RE 
+
+
+###Chinook
+
+
+
+###Pink
+
+###Chum
+
+###Coho
+
+
+#General Conclusions
+
