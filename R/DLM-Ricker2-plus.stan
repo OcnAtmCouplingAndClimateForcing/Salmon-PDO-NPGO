@@ -31,7 +31,8 @@ transformed parameters {
   for(k in 1:K) {  //Loop through coefficients
     coef[1,k] = coef0[k];
     for(n in 2:N) {
-      coef[n,k] = coef[n-1,k] + pro_dev[n-1,k];
+      coef[n,k] = rho[k]*coef[n-1,k] + pro_dev[n-1,k];  //AR(1) formulation rho ~ uniform(0,1)
+      //coef[n,k] = coef[n-1,k] + pro_dev[n-1,k];
     }
   }
   for(n in 1:N) {
@@ -43,11 +44,15 @@ model {
   alpha ~ normal(0,10);
   beta ~ normal(0,0.001);
   sigma_oe ~ normal(0,5);//cauchy(0,5);
+  
+  
   for(k in 1:K) {
     coef0[k] ~ normal(0,1);
     sigma_pe[k] ~ normal(0,5);//cauchy(0,5);
+    //rho[k] ~ uniform(0,1); //AR(1) or MA
     for(n in 1:(N-1)) {
-      pro_dev[n,k] ~ normal(rho[k], sigma_pe[k]);
+      //pro_dev[n,k] ~ normal(rho[k], sigma_pe[k]); //Moving Average Formulation
+      pro_dev[n,k] ~ normal(0, sigma_pe[k]);
     }//next n
   }
   //Likelihood
