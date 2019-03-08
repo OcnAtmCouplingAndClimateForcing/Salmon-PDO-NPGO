@@ -24,6 +24,7 @@ require(ggthemes)
 * Salmon stock-recruitment data for populations in Alaska, BC, and Puget Sound were compiled from various sources by C. Cunningham (AFSC).
 * Salmon SR data from Washington, Oregon, and California were compiled by J. Gosselin and B. Burke (NWFSC) 
 * These two datasets were combined in late November, 2018. 
+* **Update:** Chinook salmon data have multiple runs with the same `stock` identifier. Scripts must contain code to append `run` to `stock` if present. 
 
 #Structure of Data
 Data is now stored in object called  `AK-WCoast-Salmon-SR.csv`
@@ -62,6 +63,36 @@ dat.2 <- dat %>% filter(!is.infinite(ln.rps), !is.na(ln.rps), broodYr>=1950, bro
 ```
 
 So, the total number of observations is: `r nrow(dat.2)`.
+
+##Deal with multiple runs of Chinook salmon to same river
+I noticed that on the West Coast there were multiple Chinook salmon `run` identifiers for the same `stock` by `broodYr` combination. We need to identify these instances and update the stock name so it is treated separately in subsequent data exploration and STAN stock-recruitment models. 
+
+As it turns out there are `r sum(!is.na(dat.2$run))` observations (years) our of `r length(dat.2$run)` for which a `run` is identified.
+
+To avoid confusion we will simply update `stock` names to include the `run` for each stock where it is listed. 
+
+Lets determine for which `stock` identifier there are multiple years
+```{r}
+temp.dat <- dat.2 %>% filter(species=='Chinook')
+
+stocks <- unique(temp.dat$stock)
+n.stocks <- length(stocks)
+
+n.runs <- vector(length=n.stocks)
+
+for(s in 1:n.stocks) {
+  n.runs[s] <- length(unique(temp.dat$run[temp.dat$stock==stocks[s]]))
+}
+stocks[which(n.runs>1)]
+```
+
+Looks like the Lewis River is our trouble spot.
+
+So, lets append the run to the Lewis River in its `stock` designation. 
+
+```{r}
+
+```
 
 #Explore Data
 ##Number of stocks by species and region
