@@ -1,0 +1,124 @@
+---
+title: "Upwelling"
+author: "Mary Hunsicker"
+date: "2/8/2018"
+output:
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load packages and data,results='hide'}
+library(MuMIn)
+library(dplyr)
+library(ggplot2)
+library(ggforce)
+library(reshape2)
+library(tidyverse)
+
+all.dat<-read.csv("/Volumes/STEALTH/OcnAtmWorkshop/WinterPDO.NPGO-SpringUpwelling_PFEL.csv")
+
+#We are interested in 1988/1989 break in time series. For our analysis, we will use data from 1950 through 2012. We also remove second GOA station at latitude 60 N (longitude = 149W)
+dat<-all.dat[all.dat$lon_w!=149&all.dat$year<2013,]
+```
+
+#Correlations b/n Nov-Mar PDO and April-June Upwelling at PFEL station latitudes 
+```{r pdo - upwelling, echo=FALSE, fig.height = 11, fig.width = 8}
+#sp.dat<-dat[dat$lat>42,] #use if we want to exlcude some of the southern PFEL station data
+pdo.corr<- dat %>% 
+  group_by(lat_n, era) %>%
+  summarise(cor.coeff = round(cor(pdo_nov_mar, upwell_amj), digits=3))
+
+ggplot(dat, aes(pdo_nov_mar,upwell_amj))+ geom_point(color="blue")+
+  facet_grid_paginate(lat_n~era,ncol=2,nrow=7,page=1) + stat_smooth(method="lm", se=FALSE, colour="darkblue")+labs(x = "Winter PDO (NDJFM)", y = "Spring Upwelling (AMJ)")+
+  geom_text(data=pdo.corr,aes(x = -2, y = 150,label=cor.coeff), size=3, inherit.aes=FALSE, parse = TRUE) 
+
+ggplot(dat, aes(pdo_nov_mar,upwell_amj))+ geom_point(color="blue")+
+  facet_grid_paginate(lat_n~era,ncol=2,nrow=7,page=2) + stat_smooth(method="lm", se=FALSE, colour="darkblue")+ labs(x = "Winter PDO (NDJFM)", y = "Spring Upwelling (AMJ)")+
+  geom_text(data=pdo.corr,aes(x = -2, y = 150,label=cor.coeff), size=3, inherit.aes=FALSE, parse = TRUE)
+```
+
+#Correlations b/n Nov-Mar NPGO and April-June Upwelling at PFEL station latitudes 
+```{r npgo - upwelling, echo=FALSE, fig.height = 11, fig.width = 8}
+npgo.corr<- dat %>% 
+  group_by(lat_n, era) %>%
+  summarise(cor.coeff = round(cor(npgo_nov_mar, upwell_amj), digits=3))
+
+ggplot(dat, aes(npgo_nov_mar,upwell_amj))+ geom_point(color="blue")+
+  facet_grid_paginate(lat_n~era,ncol=2,nrow=7,page=1) + stat_smooth(method="lm", se=FALSE, colour="darkblue")+ labs(x = "Winter NPGO (NDJFM)", y = "Spring Upwelling (AMJ)")+
+  geom_text(data=npgo.corr,aes(x = -1.6, y = 150,label=cor.coeff), size=3, inherit.aes=FALSE, parse = TRUE)
+
+ggplot(dat, aes(npgo_nov_mar,upwell_amj))+ geom_point(color="blue")+
+  facet_grid_paginate(lat_n~era,ncol=2,nrow=7,page=2) + stat_smooth(method="lm", se=FALSE, colour="darkblue")+ labs(x = "Winter NPGO (NDJFM)", y = "Spring Upwelling (AMJ)")+
+  geom_text(data=npgo.corr,aes(x = -1.6, y = 150,label=cor.coeff), size=3, inherit.aes=FALSE, parse = TRUE)
+```
+
+
+#Fit PDO-Upwelling lm to each station individually and print AICc values
+### model with era term:
+###lm(upwell_amj~pdo_nov_mar+era+pdo_nov_mar*era,data=sub.dat)
+
+### model without era term:
+###lm(upwell_amj~pdo_nov_mar,data=sub.dat)
+```{r lm aic values for pdo-upwelling, echo=FALSE}
+lat_val<-c(21,24,27,30,33,36,39,42,45,48,51,54,57,60)
+pdo_AICvals = as_tibble()
+for(i in 1:length(lat_val)){
+sub.dat = subset(dat,lat_n == lat_val[i])
+mod_era<-lm(upwell_amj~pdo_nov_mar+era+pdo_nov_mar*era,data=sub.dat)
+AIcC_1<-AICc(mod_era)
+
+mod_no.era<-lm(upwell_amj~pdo_nov_mar,data=sub.dat)
+AICc_2= AICc(mod_no.era)
+delAICc=AIcC_1-AICc_2
+
+pdo_AICvals = bind_rows(pdo_AICvals,data.frame(lat = lat_val[i],AICc_era_pdo=AIcC_1, AICc_noera_pdo=AICc_2,deltaAICc_pdo=delAICc))
+}
+print.data.frame(pdo_AICvals)
+```
+
+
+# Fit NPGO-Upwelling lm to each station location individually and print AIC values
+### model with era term:
+###lm(upwell_amj~npgo_nov_mar+era+npgo_nov_mar*era,data=sub.dat)
+
+### model without era term:
+###lm(upwell_amj~npgo_nov_mar,data=sub.dat)
+
+```{r lm aic values for npgo-upwelling models, echo=FALSE}
+lat_val<-c(21,24,27,30,33,36,39,42,45,48,51,54,57,60)
+npgo_AICvals = as_tibble()
+for(i in 1:length(lat_val)){
+sub.dat = subset(dat,lat_n == lat_val[i])
+mod_era<-lm(upwell_amj~npgo_nov_mar+era+npgo_nov_mar*era,data=sub.dat)
+AIcC_1<-AICc(mod_era)
+
+mod_no.era<-lm(upwell_amj~npgo_nov_mar,data=sub.dat)
+AICc_2= AICc(mod_no.era)
+delAICc=AIcC_1-AICc_2
+
+npgo_AICvals = bind_rows(npgo_AICvals,data.frame(lat = lat_val[i],AICc_era_npgo=AIcC_1 , AICc_noera_npgo =AICc_2,deltaAICc_npgo=delAICc))
+}
+print.data.frame(npgo_AICvals)
+```
+
+# Plots of deltaAICc values for pdo and npgo lm models with and without era term
+## positive (negative) deltaAIC values indicate that model with era term (without era term) was best model
+```{r plots of deltaAIC values for pdo and npgo models, echo=FALSE}
+npgo_AICvals$deltaAICc_pdo<-pdo_AICvals$deltaAICc_pdo
+delAICplot<-npgo_AICvals[,c(1,4,5)]
+delAIC.plot<-melt(delAICplot,id.vars = "lat")
+names(delAIC.plot)<-c("Latitude","Model","deltaAICc")
+delAIC.plot$Latitude<-as.character(delAIC.plot$Latitude)
+ggplot(delAIC.plot, aes(x=Latitude, y=deltaAICc,fill=Model)) +
+    geom_bar(stat="identity", position=position_dodge())+
+  #coord_cartesian(ylim=c(min(npgo.aic.plot$AIC)-50, max(npgo.aic.plot$AIC)+10))+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+  scale_fill_manual(values=c("#E69F00", "#0072B2"))
+```
+
+
+
