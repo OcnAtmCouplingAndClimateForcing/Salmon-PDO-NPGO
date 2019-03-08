@@ -10,6 +10,7 @@ data {
   int<lower=0> S; //number of stocks
   int N[S];  //number of SR observations for each stock
   int<lower=0> maxN;  //maximum number of observations across stocks
+  int years[S, maxN]; //Pointer vector for brood year references.
   matrix[S,maxN] ln_rps;
   matrix[S,maxN] spawn;
   int<lower=0> K; // number of covariates
@@ -73,7 +74,8 @@ transformed parameters {
     //Alternatively, we may be able to do this with an if statement.... But it makes the JAGSer inside of me cry :(
     for(n in 1:maxN) {
       if(n<=N[s]) {
-        pred[s,n] = alpha[s] - beta[s]*spawn[s,n] + PDO[s,n] * coef_PDO[region[s],n] + NPGO[s,n] * coef_NPGO[region[s],n];
+        // pred[s,n] = alpha[s] - beta[s]*spawn[s,n] + PDO[s,n] * coef_PDO[region[s],n] + NPGO[s,n] * coef_NPGO[region[s],n];
+        pred[s,n] = alpha[s] - beta[s]*spawn[s,n] + PDO[s,n] * coef_PDO[region[s],years[s,n]] + NPGO[s,n] * coef_NPGO[region[s],years[s,n]]; //Updated with years pointer vector
       }else {
         pred[s,n] = 0;
       }
