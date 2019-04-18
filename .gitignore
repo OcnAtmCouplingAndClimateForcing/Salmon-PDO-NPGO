@@ -45,6 +45,7 @@ rsconnect/
 /Output/DLM-Region/*.rds
 /Output/DLM-Region-ARMA/*.rds
 /Output/DLM-Region-Litzow/*.rds
+/Output/DLM-Region-Litzow/old/*.rds
 
 #Ignore large output .csv files
 #/Output/DLM-Ricker/effect.df.csv
