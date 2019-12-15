@@ -8,13 +8,15 @@
 #
 #==================================================================================================
 #NOTES:
-#  a) 100,000 iter took 7 hours for single species.
-# "Thu Feb  7 23:52:17 2019"
-# "Fri Feb  8 09:16:57 2019"
+#  a) Corrected problem with Chinook salmon - Lewis River had data sets for both Late-fall and Fall run 
+#       with the same "stock" identifier. I updated these in the input .xlsx and .csv files.
+# 
+# TIMINGS: 
+[1] "n.iter: 30000"
+[1] "n.thin: 15"
+[1] "Sat Oct 26 13:52:39 2019"
+[1] "Sun Oct 27 15:11:44 2019"
 
-# NO CHINOOK - 1e4 thin 5
-# [1] "Wed Feb 20 14:47:13 2019"
-# [1] "Wed Feb 20 17:25:56 2019"
 #==================================================================================================
 
 require(tidyverse)
@@ -30,11 +32,20 @@ require(BEST)
 require(reshape2)
 
 #CONTROL SECTION ==========================================================
-do.est <- FALSE
+do.est <- TRUE
 
-n.chains <- 3
-n.iter <- 1e4
-n.thin <- 5
+n.chains <- 4
+n.iter <- 3e4#2e4
+n.thin <- 15
+(n.iter/n.thin*0.5)*n.chains
+
+# Model Designations
+# Original
+# model_file <- "DLM-Region.stan"
+# model_name <- "DLM-Region"
+
+model_file <- "DLM-Region-ARerror.stan"
+model_name <- "DLM-Region-ARerror-NEW"
 
 #Define Workflow Paths ====================================================
 # *Assumes you are working from the Coastwide_Salmon_Analysis R project
@@ -54,16 +65,30 @@ dir.create(dir.output, recursive=TRUE)
 # source(file.path(dir.R, "plot-other-pars.R"))
 
 #Read SR Data ===================================================
-dat <- read.csv(file.path("data","AK-WCoast-Salmon-SR.csv"), header=TRUE, stringsAsFactors=TRUE)
+dat <- read.csv(file.path("data","AK-WCoast-Salmon-SR.csv"), header=TRUE, stringsAsFactors=FALSE)
 #Add rps and ln.rps
 dat$rps <- dat$rec/dat$spawn
 dat$ln.rps <- log(dat$rps)
 
+# How many total datasets
+# species.stock <- paste(dat$species, dat$stock)
+
+# length(unique(species.stock))
+
+# nums.tab <- dat %>% group_by(species) %>% summarize(n.pops=length(unique(stock)))
+# View(nums.tab); sum(nums.tab$n.pops)
 #Subset SR Data ==============================================
-dat.2 <- dat %>% filter(!is.infinite(ln.rps), !is.na(ln.rps), broodYr>=1950, broodYr<=2010)
+# dat.2 <- dat %>% filter(!is.infinite(ln.rps), !is.na(ln.rps), broodYr>=1950, broodYr<=2010)
+# dat.2 <- dat %>% filter(!is.infinite(ln.rps), !is.na(ln.rps), !is.nan(ln.rps), rec>0, broodYr>=1950, broodYr<=2010)
+dat.2 <- dat %>% filter(!is.infinite(ln.rps), !is.na(ln.rps), !is.nan(ln.rps), rec>0, broodYr>=1950, broodYr<=2010)
 
 #Update Duplicate Stock Identifiers (mostly Chinook) ==========================
+# Lewis River Fall-run and Late fall are the sticky wickets.
 
+# dat.2$stock[dat.2$species=="Chinook" & dat.2$stock=="Lewis River",] <- paste(dat.2$run[dat.2$species=="Chinook" & dat.2$stock=="Lewis River",],"-", dat.2$stock[dat.2$species=="Chinook" & dat.2$stock=="Lewis River",])
+
+# sum.id <- dat.2 %>% group_by(species, stock) %>% summarize(n.stockid=length(unique(stock.id)))
+# View(sum.id)
 
 #Read PDO/NPGO Data =============================================
 covar.dat <- read.csv(file.path(dir.data,"Covariates","covar.dat.csv"))
@@ -83,9 +108,9 @@ write.csv(offset.table, file=file.path(dir.figs,"offset.table.csv"))
 
 #Fit STAN Models ==============================================
 start <- date()
-s <- 5
-# for(s in 1:n.species) {
-for(s in c(1,3,4,5)) {
+s <- 1
+for(s in 1:n.species) {
+# for(s in c(1,3,4,5)) { #Currently Excluding Chinook
   print(paste('###### s',s,'of',n.species))
   temp.species <- species[s]
   dat.3 <- dat.2 %>% filter(species==temp.species)
@@ -158,8 +183,8 @@ for(s in c(1,3,4,5)) {
   # 
   #Call STAN =======================================================
   if(do.est==TRUE) {
-  fit <- stan(file=file.path(dir.R,"DLM-Region.stan"),
-              model_name="DLM-Region",
+  fit <- stan(file=file.path(dir.R, model_file),
+              model_name=model_name,
               data=list("N"=N, "maxN"=maxN,
                         "ln_rps"=ln_rps, "spawn"=spawn,
                         "K"=K, 
@@ -167,7 +192,7 @@ for(s in c(1,3,4,5)) {
                         "PDO"=PDO, "NPGO"=NPGO,
                         "S"=S,
                         "R"=R,
-                        "region"=region),
+                        "region"=region, "years"=years),
               # chains=3, iter=1e5, thin=50,
               chains=n.chains, iter=n.iter, thin=n.thin,
               # chains=3, iter=1e3, thin=1,
@@ -257,6 +282,8 @@ for(s in c(1,3,4,5)) {
 
 end <- date()
 
+print(paste('n.iter:',n.iter))
+print(paste('n.thin:',n.thin))
 print(start)
 print(end)
 
