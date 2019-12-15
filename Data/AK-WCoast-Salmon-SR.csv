@@ -1,4 +1,4 @@
-stock.id,species,run,stock,region,sub.region,broodYr,spawn,rec,large.region
+﻿stock.id,species,run,stock,region,sub.region,broodYr,spawn,rec,large.region
 NA,Sockeye,NA,Bear,AK Peninsula,AK Peninsula,1980,238038,545500,BS
 NA,Sockeye,NA,Bear,AK Peninsula,AK Peninsula,1981,214728,318386,BS
 NA,Sockeye,NA,Bear,AK Peninsula,AK Peninsula,1982,104503,280870,BS
@@ -1453,915 +1453,915 @@ NA,Sockeye,NA,Washington,WA,WA,2008,19903,50530,WC
 NA,Sockeye,NA,Washington,WA,WA,2009,16368,142754,WC
 NA,Sockeye,NA,Washington,WA,WA,2010,83876,26001,WC
 NA,Sockeye,NA,Washington,WA,WA,2011,31730,17343,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1950,25658,241666,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1951,29787,173654,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1952,15483,88600,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1953,78332,540891,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1954,18010,155823,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1955,1397,27467,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1956,16662,110394,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1957,119278,1222936,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1958,22196,103107,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1959,1297,20835,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1960,7401,74149,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1961,87809,255842,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1962,14075,75785,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1966,5959,84786,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1968,793,10423,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1970,15806,182136,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1971,45612,431210,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1972,2253,32232,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1973,153870,1352082,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1974,21603,145244,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1975,26248,223085,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1976,6792,31877,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1977,53381,761694,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1978,20005,72852,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1979,36172,107936,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1980,7361,63501,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1981,67227,350141,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1982,2158,27816,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1983,13121,188896,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1984,21868,242040,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1985,116610,1208877,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1986,15219,145942,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1987,75970,525920,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1988,88069,379932,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1989,211039,1138789,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1990,47063,166086,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1991,85454,144459,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1992,36564,100376,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1993,386816,1814783,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1994,14498,29030,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1995,57322,189600,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1996,41063,464146,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1997,73417,147572,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1998,9375,28692,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,1999,8189,30566,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,2000,35334,135874,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,2001,82849,252006,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,2002,12939,24585,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,2003,6932,10031,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,2004,5253,37464,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,2005,51183,85031,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,2006,15914,106616,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,2007,2376,10697,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,2008,14446,193080,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,2009,21884,202893,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,2010,34198,218343,WC
-NA,Sockeye,NA,E.Stuart,WC,Fraser River,2011,233,3364,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1950,1834,39681,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1953,78689,1552239,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1955,3274,51345,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1957,300029,1329884,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1958,13152,54677,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1959,4090,7392,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1960,1307,9617,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1961,194469,778478,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1962,9073,45069,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1963,1092,12049,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1964,824,3101,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1965,122789,1124519,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1966,4164,74079,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1967,897,16556,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1969,114306,1625590,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1970,8027,70838,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1972,3411,18766,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1973,116706,666098,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1974,7371,50716,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1976,1674,3339,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1977,75890,1357741,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1978,7115,79447,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1979,16711,6854,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1981,120124,2033901,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1982,8681,60989,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1983,1451,17944,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1984,672,14744,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1985,159101,3507629,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1989,327096,5327124,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1990,111747,389823,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1991,40200,109581,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1992,12422,135399,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1993,744565,3764256,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1994,40717,115440,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1995,17181,133454,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1997,415149,430895,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1998,67836,277262,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,1999,33801,133622,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,2000,226267,913822,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,2001,179540,505343,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,2002,17820,125952,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,2003,19212,21783,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,2004,51370,282917,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,2005,164657,119666,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,2006,14283,174548,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,2007,4144,13742,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,2008,57881,190239,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,2009,43271,230419,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,2010,43476,170872,WC
-NA,Sockeye,NA,L.Stuart,WC,Fraser River,2011,778,9284,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1950,77410,939117,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1951,51413,455367,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1952,19920,110701,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1953,20388,174245,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1954,72273,1211299,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1955,29937,629796,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1956,21686,246735,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1957,18044,151843,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1958,61581,340460,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1959,41872,541420,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1960,22718,164514,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1961,18136,147402,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1962,44532,589505,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1963,41535,727926,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1964,16161,177837,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1965,20479,243651,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1966,51509,359906,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1967,32467,550524,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1968,13680,129822,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1969,25629,253245,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1970,26727,234108,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1973,15424,85901,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1974,23718,303122,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1976,63865,244357,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1977,10894,265700,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1978,32528,437405,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1979,152583,623924,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1981,12030,285898,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1982,34888,357773,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1983,61357,1257480,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1985,21969,128742,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1986,44564,561845,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1987,98179,435676,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1988,200537,991499,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1989,15903,222287,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1990,56537,951836,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1991,54349,336569,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1992,55138,868461,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1993,42861,309844,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1994,63584,682889,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1995,41135,183959,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1996,167624,811994,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1997,23241,125173,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1998,96961,637997,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,1999,66080,174462,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,2000,195386,717671,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,2001,61590,287128,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,2002,177618,248375,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,2003,43829,49132,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,2004,53755,247008,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,2005,102247,11537,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,2006,79834,473005,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,2007,19626,137950,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,2008,73798,274425,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,2009,15770,199533,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,2010,109383,1583177,WC
-NA,Sockeye,NA,Stellako,WC,Fraser River,2011,25856,51985,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1950,7298,75548,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1951,10039,103821,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1952,8568,43304,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1953,5734,75579,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1954,4566,66916,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1955,4471,96955,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1956,3639,38484,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1957,6416,41966,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1958,8297,18155,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1959,14614,61865,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1960,3506,17733,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1961,3675,28148,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1962,3219,21327,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1963,11468,214316,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1965,1170,17849,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1966,1151,22249,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1967,13991,206494,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1969,1936,17211,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1971,10761,124507,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1972,1969,16971,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1973,2012,10662,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1974,1046,17431,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1975,14735,122780,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1976,1069,7112,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1977,1214,15396,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1978,1678,40627,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1979,16178,29984,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1982,990,5277,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1983,3484,38556,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1984,4909,50603,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1985,3030,19177,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1986,1396,21198,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1987,5660,22592,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1988,7405,13050,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1989,1367,12842,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1990,5065,31130,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1991,2460,48807,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1992,1117,12883,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1994,1845,10849,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1995,13487,27391,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1996,4054,26776,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1997,2119,5024,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1998,2830,17001,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,1999,3295,19734,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,2000,6720,25283,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,2001,2752,6825,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,2002,4505,7674,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,2003,3038,3822,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,2004,458,6120,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,2005,866,2258,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,2007,1075,8377,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,2008,275,781,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,2009,843,6209,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,2010,4095,26686,WC
-NA,Sockeye,NA,Bowron,WC,Fraser River,2011,2037,6158,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1950,1917,45556,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1951,3365,47653,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1952,5116,51182,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1953,3600,32124,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1954,5352,50488,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1955,2905,60522,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1956,5180,27140,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1957,3314,21015,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1958,6235,23143,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1959,5232,23614,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1960,2690,16948,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1961,3014,24325,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1962,4197,40549,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1963,2693,9817,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1964,2666,48724,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1965,2669,20626,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1966,2666,23539,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1969,2577,14370,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1970,1205,8860,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1972,4507,57821,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1973,1345,9361,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1974,1479,12223,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1975,1391,6716,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1976,3976,19926,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1978,1343,18748,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1979,693,3039,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1982,1533,3770,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1983,1821,5601,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1984,6701,47063,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1985,1922,4533,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1986,1080,3013,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1987,723,3820,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1988,9207,50485,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1989,925,11299,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1990,412,2544,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1991,264,1461,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1992,4112,67359,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1993,2934,33598,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1996,21381,112592,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1997,2367,51264,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1998,3585,16238,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,1999,3499,61149,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,2000,27668,115396,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,2001,16025,96695,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,2002,8402,42833,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,2003,4890,8475,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,2004,3244,51234,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,2005,16967,9092,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,2006,3442,17321,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,2007,8064,10682,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,2008,3562,18431,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,2009,6039,35194,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,2010,2389,44143,WC
-NA,Sockeye,NA,Raft,WC,Fraser River,2011,4430,22828,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1950,264,2048,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1952,51,562,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1953,47564,610245,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1955,30,180,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1957,132852,999533,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1958,1269,3412,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1959,29,165,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1960,123,1475,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1961,70000,1240890,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1962,566,7287,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1963,40,956,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1964,159,2812,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1965,105393,1667172,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1966,1040,7462,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1968,333,428,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1969,76565,1640832,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1972,46,865,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1973,112414,2336434,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1974,2587,31024,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1975,105,1865,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1976,209,1233,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1977,160717,3878522,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1980,98,2446,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1984,551,6953,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1985,692799,12545239,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1987,11238,176592,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1988,4185,26342,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1989,942522,10641495,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1990,259553,3283634,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1991,24861,151175,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1992,3046,29214,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1993,1507350,6851040,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1994,356251,2477091,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1995,116867,167306,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1996,21719,90690,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1997,904914,4692773,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1998,534532,4739875,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,1999,106908,810586,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,2000,37163,53810,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,2001,1740454,3701006,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,2002,1312599.235,640265,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,2003,148333,143876,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,2004,6629,12695,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,2005,777707.359,209485,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,2006,90069,648942,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,2007,33601,76632,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,2008,2473,10465,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,2009,82781,308514,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,2010,131546,2429567,WC
-NA,Sockeye,NA,Quesnel,WC,Fraser River,2011,16936,42832,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1951,57563,752327,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1952,233628,1858476,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1953,94471,619456,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1955,75834,1513275,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1956,368607,2435670,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1957,83128,138228,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1958,70433,433371,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1959,272891,2212583,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1960,244864,1053335,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1961,15038,69453,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1962,42125,985562,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1963,57207,1206303,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1964,131590,2040082,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1965,20813,158944,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1966,107541,889200,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1967,90006,2004710,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1968,181912,2476069,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1969,25519,402359,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1970,50923,694456,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1971,97365,852842,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1972,332353,2109574,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1973,30231,248297,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1974,71127,712467,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1975,133782,1513636,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1976,228326,1699113,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1977,20385,199200,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1978,85570,1265579,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1979,147920,1721513,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1980,293234,4441927,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1981,20164,208706,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1982,142515,1599217,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1983,213715,2119741,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1984,283152,676358,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1985,34979,572968,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1987,268111,4420836,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1988,206206,3296360,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1990,497991,2628585,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1991,597537,1382549,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1992,319959,1866349,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1993,322298,3963871,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1994,253976,1419987,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1995,298027,1274336,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1996,504469,1363890,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1997,509298,885013,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1998,467624,536366,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,1999,432565,1570589,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,2000,395559,501890,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,2001,331244,1158636,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,2002,215050,1239287,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,2003,334896,384261,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,2004,49193,426764,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,2005,285065,364252,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,2006,261918,5097904,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,2007,156518,1132603,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,2008,68731,526968,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,2009,127367,1803552,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,2010,1181540,2728166,WC
-NA,Sockeye,NA,Chilko,WC,Fraser River,2011,457653,894697,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1951,11505,68943,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1952,2780,11249,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1953,2907,45268,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1956,1102,12763,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1957,7416,24583,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1958,44285,195518,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1959,25773,175980,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1960,1862,8837,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1961,1957,32923,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1962,28664,176546,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1963,26742,114086,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1964,1321,18498,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1965,2550,34890,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1966,12943,141828,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1968,2064,22108,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1969,3276,14875,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1971,9463,135310,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1973,1150,24800,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1974,25868,248730,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1975,16844,180684,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1976,4898,18422,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1977,2883,70046,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1978,30757,261925,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1979,24866,135614,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1980,4616,52848,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1981,5354,30875,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1982,27219,508455,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1983,14014,272460,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1984,9148,36017,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1985,2684,43576,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1986,57069,824169,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1987,41081,442220,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1988,7989,10843,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1989,2864,18877,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1990,108279,278827,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1991,60845,95565,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1992,3586,17906,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1993,4950,8716,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1994,19151,172547,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1995,23928,66040,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1996,9590,39470,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1997,836,1944,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1998,14548,214404,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,1999,10072,133931,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,2000,11860,59563,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,2001,3743,19042,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,2002,55465,507957,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,2003,18483,12366,WC
-NA,Sockeye,NA,Seymour,WC,Fraser River,2004,762,6904,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1950,583045,9944058,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1951,82097,529582,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1952,4211,17932,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1953,1623,31027,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1954,1067603,15869336,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1955,44632,865520,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1956,2103,7974,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1957,1651,3163,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1958,1644152,2213808,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1959,89270,382302,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1960,1322,2549,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1961,854,8147,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1962,651863,2925312,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1965,1332,24808,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1966,660849,4051932,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1967,402412,3184223,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1968,2713,21961,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1969,3166,29860,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1970,785282,5580907,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1971,158976,702125,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1972,2155,44505,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1974,619123,7050422,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1975,85544,1026264,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1976,3072,14170,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1977,6027,93645,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1978,1014761,9657379,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1979,162142,1499666,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1980,1816,23307,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1981,5959,9470,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1982,1568605,9464899,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1983,100256,1980917,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1984,2409,33174,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1985,806,14934,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1986,1068479,10945795,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1987,319734,3903932,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1988,3558,8220,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1990,1745709,7770370,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1991,616033,866189,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1992,6640,19909,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1993,765,15366,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1994,686190,2610200,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1995,210969,771591,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1996,5492,61532,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1998,680650,7248023,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,1999,138247,698913,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,2000,164,1388,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,2001,2141,8890,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,2002,2845464,7509787,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,2003,189793,138420,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,2005,11792,33868,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,2006,1170725,17568471,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,2007,32296,210478,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,2009,20208,380032,WC
-NA,Sockeye,NA,L.Shuswap,WC,Fraser River,2010,3073257,8616732,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1950,41370,242740,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1951,13590,216719,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1952,24744,244678,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1953,16287,156143,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1954,8635,175704,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1956,27156,279109,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1957,7068,76363,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1958,5510,129262,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1959,11388,268022,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1960,19198,172100,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1961,10550,129815,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1962,14311,102491,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1963,20769,456078,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1964,27978,365895,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1965,9769,165171,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1966,13462,316855,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1968,31042,285207,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1971,16143,369096,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1972,26202,519340,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1973,28374,216524,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1974,85495,727181,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1975,23315,120593,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1976,50023,619577,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1978,48158,666214,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1979,35482,415951,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1980,32786,163172,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1981,27175,266159,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1984,23227,470361,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1986,197896,1211967,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1987,89432,999898,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1988,75535,927715,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1990,97112,238613,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1991,152083,122385,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1992,93443,99182,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1993,151096,575880,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1994,22315,67413,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1995,18430,170525,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1996,27848,78931,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1997,23275,30582,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1998,173045,619321,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,1999,26268,83528,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,2000,8333,101965,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,2001,28361,191674,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,2002,107481,634125,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,2003,152651,13338,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,2004,17516,76400,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,2005,27117,86050,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,2006,137365,441809,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,2007,54290,246613,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,2008,6788,71911,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,2009,34475,133712,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,2010,67762,33814,WC
-NA,Sockeye,NA,Birkenhead,WC,Fraser River,2011,92420,88236,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1950,18546,108361,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1952,11309,44424,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1953,4930,63669,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1954,10476,71295,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1955,16711,281084,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1956,8469,37505,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1957,12236,28083,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1958,7017,51030,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1959,29845,53023,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1960,9431,23939,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1961,6554,6148,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1962,16352,36742,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1963,10504,138448,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1964,5787,71400,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1965,1512,21020,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1966,8614,45065,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1967,17176,110974,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1968,13862,42454,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1969,2964,6477,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1970,7607,46132,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1971,4629,51271,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1972,5399,30363,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1973,301,713,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1974,4989,30293,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1975,6843,129249,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1976,2688,6123,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1979,18913,110516,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1980,898,4825,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1981,134,1544,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1982,9580,18839,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1983,11490,96326,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1984,389,9406,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1985,195,2431,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1986,2016,10488,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1987,16189,65855,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1988,454,7825,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1991,9850,17399,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1992,697,1884,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1993,571,945,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1994,2524,2448,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1995,4279,14793,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1996,723,1515,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1997,35,717,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1998,955,6185,WC
-NA,Sockeye,NA,Cultus,WC,Fraser River,1999,1025,2852,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1951,15,244,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1953,24,394,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1954,1729,38700,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1957,20,47,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1958,2749,25645,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1959,286,5565,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1962,6326,72180,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1965,589,3463,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1966,15201,31339,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1967,1983,4286,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1968,50,1046,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1974,4843,42611,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1975,1631,15753,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1976,753,7590,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1977,3923,39989,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1980,996,12225,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1981,2951,20069,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1982,11734,210984,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1983,4909,37358,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1986,6212,71594,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1987,3766,63044,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1990,8415,50970,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1991,7292,15891,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1992,1378,17136,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1993,9829,174902,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1995,4319,40496,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1997,5056,41499,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1998,11873,18053,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,1999,2079,9078,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,2000,671,12829,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,2001,1851,18610,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,2002,8001,48191,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,2004,778,5688,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,2005,8261,2532,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,2006,10971,172797,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,2007,849,2820,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,2008,63,519,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,2009,792,11966,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,2010,26687,88940,WC
-NA,Sockeye,NA,Portage,WC,Fraser River,2011,330,57,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1966,9860,76161,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1967,10619,88405,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1969,30604,412913,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1972,15027,350142,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1973,24885,274667,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1974,28099,284880,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1975,16033,169860,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1976,28243,304434,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1977,28510,235763,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1979,25702,141028,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1980,43285,364714,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1981,22627,270292,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1982,115031,1505995,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1983,27380,239991,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1984,30435,635778,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1985,22773,69300,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1986,41837,42717,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1987,30106,220718,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1988,27623,513778,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1991,18710,65545,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1993,34019,501325,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1994,35516,715932,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1995,10905,266443,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1996,26849,383413,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1997,10724,215997,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1998,29811,566885,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,1999,13106,246929,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,2001,8035,196083,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,2002,36269,242830,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,2003,24681,188799,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,2004,13967,121252,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,2005,23597,65091,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,2006,13618,247382,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,2007,15825,333790,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,2009,12871,230325,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,2010,25328,129799,WC
-NA,Sockeye,NA,Weaver,WC,Fraser River,2011,24535,709,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1973,83,1106,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1974,70,586,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1976,2373,22761,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1979,8046,18564,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1980,4413,36205,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1981,1067,3947,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1982,656,11140,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1983,2596,39122,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1984,6291,49644,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1986,3323,35411,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1987,9212,78650,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1988,13209,50650,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1989,2813,19804,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1990,6702,22995,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1991,11945,14854,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1992,6103,50629,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1993,5030,43315,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1994,3515,14061,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1995,5988,37010,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1996,15409,13827,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1997,4379,6261,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1998,4972,13140,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,1999,3341,43525,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,2000,4796,60597,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,2001,3343,11861,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,2002,4936,76212,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,2003,5317,13693,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,2004,1594,7677,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,2005,2817,2785,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,2006,8278,31124,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,2007,6900,6202,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,2009,715,8626,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,2010,5564,27500,WC
-NA,Sockeye,NA,Fennell,WC,Fraser River,2011,4498,1903,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1965,777,16637,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1966,236,2956,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1970,142,2236,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1973,2966,57906,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1976,20,279,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1977,6702,77703,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1978,1091,19328,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1980,62,1532,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1981,6887,25367,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1983,133,2632,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1984,265,2625,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1986,11299,257059,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1988,723,3320,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1989,3928,16728,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1990,34411,316280,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1991,4539,25716,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1992,1385,2454,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1993,3259,11886,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1994,26711,184451,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1995,7810,14176,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1996,2205,4148,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1997,1415,2253,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1998,17001,193690,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,1999,2034,26423,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,2000,1732,41212,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,2002,50375,693222,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,2003,2477,1681,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,2004,432,3913,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,2005,2686,5761,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,2006,72735,1036578,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,2007,4758,49724,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,2009,2665,47655,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,2010,273905,423161,WC
-NA,Sockeye,NA,Scotch,WC,Fraser River,2011,12451,8966,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1968,3835,82665,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1969,359,4766,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1975,1246,19756,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1976,8820,73230,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1977,1174,21324,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1978,129,1647,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1979,1648,18266,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1980,11032,79631,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1981,1908,18129,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1982,439,9701,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1983,3055,28098,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1984,9072,137919,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1986,1879,27349,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1987,4105,27833,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1988,17840,319543,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1989,9794,53094,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1990,3304,15949,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1991,4618,21685,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1992,9224,195433,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1993,9089,67524,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1994,1706,34364,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1995,4533,23459,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1996,14150,198058,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1997,1877,13409,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1998,2442,4812,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,1999,1765,42642,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,2000,16571,92002,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,2001,4008,50246,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,2002,1144,13001,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,2003,5036,4761,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,2004,5484,49333,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,2005,8850,15088,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,2009,5274,122248,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,2010,5903,44766,WC
-NA,Sockeye,NA,Gates,WC,Fraser River,2011,26433,37443,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1973,10726,73354,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1974,2072,20212,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1975,8655,158876,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1976,898,7274,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1977,10085,132049,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1978,1527,31247,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1979,21272,101373,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1980,1603,21372,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1981,11363,76800,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1982,1423,6775,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1983,15945,149731,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1984,3847,24917,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1985,7731,46853,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1986,2051,20838,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1987,15643,191036,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1988,4514,57739,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1989,2653,20016,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1990,3405,15734,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1991,33387,56339,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1993,4797,56702,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1994,1077,18358,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1995,8452,65517,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1997,2624,3186,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1998,1983,4879,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,1999,5026,11388,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,2000,65446,259537,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,2001,17875,96134,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,2002,1031,6180,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,2003,1677,3705,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,2004,13773,219464,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,2005,12141,16209,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,2006,4487,64878,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,2007,1006,11542,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,2008,10169,91101,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,2009,3718,21779,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,2010,11892,198859,WC
-NA,Sockeye,NA,Nadina,WC,Fraser River,2011,1195,11223,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1950,13313,146337,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1951,17922,120302,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1952,21904,72178,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1953,9303,25807,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1954,8332,51094,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1955,11221,166937,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1956,11107,70323,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1957,5130,29207,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1958,6658,16535,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1959,6096,62493,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1960,12532,33314,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1961,6542,103035,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1962,8479,57275,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1963,5798,142935,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1965,3387,38984,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1966,10735,77701,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1967,5241,67780,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1968,8194,105588,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1969,11739,61083,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1970,3123,55398,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1972,6575,123179,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1973,4713,29176,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1974,8859,135945,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1975,21376,85230,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1976,19475,105588,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1977,7798,34586,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1978,14116,34978,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1979,20384,38819,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1980,9191,16913,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1981,13301,40270,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1982,5090,18265,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1983,10093,62053,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1984,8759,75994,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1985,2113,23208,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1986,12305,40001,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1987,5533,22485,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1988,19026,62489,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1989,9051,16691,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1990,6037,9117,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1991,10867,33888,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1992,4411,100553,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1993,11430,103267,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1994,4087,35089,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1995,3185,52971,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1996,21678,151964,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1997,17239,96262,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1998,49869,133321,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,1999,19388,142825,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,2000,18581,111288,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,2001,74627,54820,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,2002,39138,69160,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,2003,39970,13966,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,2004,33786,40053,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,2005,33806,8548,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,2006,21301,67277,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,2007,19935,81659,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,2008,6348,80160,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,2009,18838,50938,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,2010,8783,45176,WC
-NA,Sockeye,NA,Pitt,WC,Fraser River,2011,30439,77764,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1950,18216,78099,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1951,13181,122022,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1952,17215,23054,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1953,7641,9784,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1954,16869,14797,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1958,6404,59892,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1959,17692,41545,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1960,7076,29451,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1961,21725,13225,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1962,4197,50812,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1963,9803,87825,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1965,7779,20432,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1966,9295,55444,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1967,12672,50935,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1968,2854,17838,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1969,7559,7302,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1970,6471,39763,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1972,794,1963,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1973,1571,37681,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1974,8709,40338,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1976,2933,44728,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1977,1374,24058,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1978,10488,41193,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1979,20234,10895,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1980,2262,14393,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1981,1788,17869,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1982,4686,28956,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1983,2132,17919,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1984,689,5265,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1985,1825,14476,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1986,4145,9610,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1987,2686,46184,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1988,947,4013,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1989,1998,13564,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1991,7958,38111,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1992,172,3736,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1993,2271,19096,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1994,6087,20682,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1995,6758,49813,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1996,8255,7560,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1998,3013,64475,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,1999,5592,91504,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,2000,1745,12173,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,2002,24384,276837,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,2003,6043,105777,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,2005,211547,15936,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,2006,90944,1388576,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,2009,100603,174770,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,2010,399661,1493100,WC
-NA,Sockeye,NA,Harrison,WC,Fraser River,2011,387080,229784,WC
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1950,25658,241666,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1951,29787,173654,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1952,15483,88600,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1953,78332,540891,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1954,18010,155823,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1955,1397,27467,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1956,16662,110394,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1957,119278,1222936,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1958,22196,103107,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1959,1297,20835,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1960,7401,74149,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1961,87809,255842,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1962,14075,75785,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1966,5959,84786,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1968,793,10423,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1970,15806,182136,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1971,45612,431210,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1972,2253,32232,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1973,153870,1352082,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1974,21603,145244,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1975,26248,223085,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1976,6792,31877,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1977,53381,761694,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1978,20005,72852,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1979,36172,107936,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1980,7361,63501,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1981,67227,350141,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1982,2158,27816,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1983,13121,188896,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1984,21868,242040,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1985,116610,1208877,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1986,15219,145942,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1987,75970,525920,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1988,88069,379932,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1989,211039,1138789,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1990,47063,166086,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1991,85454,144459,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1992,36564,100376,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1993,386816,1814783,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1994,14498,29030,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1995,57322,189600,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1996,41063,464146,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1997,73417,147572,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1998,9375,28692,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,1999,8189,30566,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,2000,35334,135874,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,2001,82849,252006,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,2002,12939,24585,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,2003,6932,10031,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,2004,5253,37464,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,2005,51183,85031,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,2006,15914,106616,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,2007,2376,10697,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,2008,14446,193080,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,2009,21884,202893,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,2010,34198,218343,CA
+NA,Sockeye,NA,E.Stuart,Fraser River,Fraser River,2011,233,3364,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1950,1834,39681,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1953,78689,1552239,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1955,3274,51345,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1957,300029,1329884,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1958,13152,54677,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1959,4090,7392,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1960,1307,9617,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1961,194469,778478,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1962,9073,45069,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1963,1092,12049,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1964,824,3101,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1965,122789,1124519,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1966,4164,74079,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1967,897,16556,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1969,114306,1625590,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1970,8027,70838,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1972,3411,18766,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1973,116706,666098,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1974,7371,50716,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1976,1674,3339,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1977,75890,1357741,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1978,7115,79447,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1979,16711,6854,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1981,120124,2033901,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1982,8681,60989,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1983,1451,17944,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1984,672,14744,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1985,159101,3507629,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1989,327096,5327124,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1990,111747,389823,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1991,40200,109581,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1992,12422,135399,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1993,744565,3764256,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1994,40717,115440,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1995,17181,133454,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1997,415149,430895,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1998,67836,277262,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,1999,33801,133622,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,2000,226267,913822,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,2001,179540,505343,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,2002,17820,125952,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,2003,19212,21783,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,2004,51370,282917,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,2005,164657,119666,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,2006,14283,174548,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,2007,4144,13742,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,2008,57881,190239,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,2009,43271,230419,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,2010,43476,170872,CA
+NA,Sockeye,NA,L.Stuart,Fraser River,Fraser River,2011,778,9284,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1950,77410,939117,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1951,51413,455367,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1952,19920,110701,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1953,20388,174245,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1954,72273,1211299,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1955,29937,629796,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1956,21686,246735,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1957,18044,151843,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1958,61581,340460,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1959,41872,541420,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1960,22718,164514,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1961,18136,147402,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1962,44532,589505,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1963,41535,727926,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1964,16161,177837,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1965,20479,243651,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1966,51509,359906,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1967,32467,550524,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1968,13680,129822,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1969,25629,253245,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1970,26727,234108,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1973,15424,85901,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1974,23718,303122,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1976,63865,244357,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1977,10894,265700,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1978,32528,437405,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1979,152583,623924,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1981,12030,285898,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1982,34888,357773,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1983,61357,1257480,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1985,21969,128742,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1986,44564,561845,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1987,98179,435676,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1988,200537,991499,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1989,15903,222287,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1990,56537,951836,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1991,54349,336569,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1992,55138,868461,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1993,42861,309844,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1994,63584,682889,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1995,41135,183959,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1996,167624,811994,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1997,23241,125173,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1998,96961,637997,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,1999,66080,174462,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,2000,195386,717671,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,2001,61590,287128,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,2002,177618,248375,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,2003,43829,49132,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,2004,53755,247008,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,2005,102247,11537,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,2006,79834,473005,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,2007,19626,137950,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,2008,73798,274425,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,2009,15770,199533,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,2010,109383,1583177,CA
+NA,Sockeye,NA,Stellako,Fraser River,Fraser River,2011,25856,51985,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1950,7298,75548,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1951,10039,103821,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1952,8568,43304,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1953,5734,75579,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1954,4566,66916,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1955,4471,96955,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1956,3639,38484,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1957,6416,41966,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1958,8297,18155,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1959,14614,61865,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1960,3506,17733,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1961,3675,28148,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1962,3219,21327,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1963,11468,214316,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1965,1170,17849,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1966,1151,22249,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1967,13991,206494,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1969,1936,17211,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1971,10761,124507,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1972,1969,16971,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1973,2012,10662,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1974,1046,17431,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1975,14735,122780,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1976,1069,7112,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1977,1214,15396,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1978,1678,40627,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1979,16178,29984,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1982,990,5277,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1983,3484,38556,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1984,4909,50603,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1985,3030,19177,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1986,1396,21198,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1987,5660,22592,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1988,7405,13050,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1989,1367,12842,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1990,5065,31130,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1991,2460,48807,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1992,1117,12883,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1994,1845,10849,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1995,13487,27391,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1996,4054,26776,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1997,2119,5024,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1998,2830,17001,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,1999,3295,19734,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,2000,6720,25283,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,2001,2752,6825,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,2002,4505,7674,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,2003,3038,3822,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,2004,458,6120,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,2005,866,2258,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,2007,1075,8377,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,2008,275,781,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,2009,843,6209,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,2010,4095,26686,CA
+NA,Sockeye,NA,Bowron,Fraser River,Fraser River,2011,2037,6158,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1950,1917,45556,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1951,3365,47653,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1952,5116,51182,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1953,3600,32124,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1954,5352,50488,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1955,2905,60522,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1956,5180,27140,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1957,3314,21015,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1958,6235,23143,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1959,5232,23614,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1960,2690,16948,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1961,3014,24325,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1962,4197,40549,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1963,2693,9817,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1964,2666,48724,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1965,2669,20626,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1966,2666,23539,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1969,2577,14370,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1970,1205,8860,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1972,4507,57821,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1973,1345,9361,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1974,1479,12223,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1975,1391,6716,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1976,3976,19926,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1978,1343,18748,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1979,693,3039,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1982,1533,3770,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1983,1821,5601,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1984,6701,47063,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1985,1922,4533,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1986,1080,3013,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1987,723,3820,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1988,9207,50485,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1989,925,11299,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1990,412,2544,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1991,264,1461,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1992,4112,67359,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1993,2934,33598,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1996,21381,112592,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1997,2367,51264,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1998,3585,16238,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,1999,3499,61149,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,2000,27668,115396,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,2001,16025,96695,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,2002,8402,42833,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,2003,4890,8475,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,2004,3244,51234,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,2005,16967,9092,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,2006,3442,17321,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,2007,8064,10682,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,2008,3562,18431,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,2009,6039,35194,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,2010,2389,44143,CA
+NA,Sockeye,NA,Raft,Fraser River,Fraser River,2011,4430,22828,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1950,264,2048,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1952,51,562,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1953,47564,610245,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1955,30,180,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1957,132852,999533,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1958,1269,3412,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1959,29,165,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1960,123,1475,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1961,70000,1240890,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1962,566,7287,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1963,40,956,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1964,159,2812,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1965,105393,1667172,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1966,1040,7462,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1968,333,428,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1969,76565,1640832,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1972,46,865,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1973,112414,2336434,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1974,2587,31024,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1975,105,1865,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1976,209,1233,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1977,160717,3878522,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1980,98,2446,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1984,551,6953,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1985,692799,12545239,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1987,11238,176592,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1988,4185,26342,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1989,942522,10641495,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1990,259553,3283634,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1991,24861,151175,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1992,3046,29214,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1993,1507350,6851040,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1994,356251,2477091,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1995,116867,167306,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1996,21719,90690,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1997,904914,4692773,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1998,534532,4739875,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,1999,106908,810586,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,2000,37163,53810,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,2001,1740454,3701006,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,2002,1312599.235,640265,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,2003,148333,143876,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,2004,6629,12695,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,2005,777707.359,209485,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,2006,90069,648942,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,2007,33601,76632,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,2008,2473,10465,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,2009,82781,308514,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,2010,131546,2429567,CA
+NA,Sockeye,NA,Quesnel,Fraser River,Fraser River,2011,16936,42832,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1951,57563,752327,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1952,233628,1858476,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1953,94471,619456,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1955,75834,1513275,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1956,368607,2435670,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1957,83128,138228,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1958,70433,433371,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1959,272891,2212583,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1960,244864,1053335,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1961,15038,69453,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1962,42125,985562,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1963,57207,1206303,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1964,131590,2040082,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1965,20813,158944,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1966,107541,889200,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1967,90006,2004710,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1968,181912,2476069,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1969,25519,402359,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1970,50923,694456,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1971,97365,852842,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1972,332353,2109574,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1973,30231,248297,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1974,71127,712467,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1975,133782,1513636,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1976,228326,1699113,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1977,20385,199200,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1978,85570,1265579,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1979,147920,1721513,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1980,293234,4441927,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1981,20164,208706,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1982,142515,1599217,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1983,213715,2119741,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1984,283152,676358,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1985,34979,572968,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1987,268111,4420836,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1988,206206,3296360,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1990,497991,2628585,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1991,597537,1382549,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1992,319959,1866349,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1993,322298,3963871,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1994,253976,1419987,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1995,298027,1274336,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1996,504469,1363890,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1997,509298,885013,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1998,467624,536366,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,1999,432565,1570589,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,2000,395559,501890,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,2001,331244,1158636,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,2002,215050,1239287,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,2003,334896,384261,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,2004,49193,426764,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,2005,285065,364252,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,2006,261918,5097904,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,2007,156518,1132603,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,2008,68731,526968,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,2009,127367,1803552,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,2010,1181540,2728166,CA
+NA,Sockeye,NA,Chilko,Fraser River,Fraser River,2011,457653,894697,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1951,11505,68943,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1952,2780,11249,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1953,2907,45268,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1956,1102,12763,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1957,7416,24583,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1958,44285,195518,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1959,25773,175980,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1960,1862,8837,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1961,1957,32923,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1962,28664,176546,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1963,26742,114086,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1964,1321,18498,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1965,2550,34890,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1966,12943,141828,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1968,2064,22108,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1969,3276,14875,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1971,9463,135310,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1973,1150,24800,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1974,25868,248730,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1975,16844,180684,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1976,4898,18422,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1977,2883,70046,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1978,30757,261925,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1979,24866,135614,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1980,4616,52848,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1981,5354,30875,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1982,27219,508455,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1983,14014,272460,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1984,9148,36017,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1985,2684,43576,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1986,57069,824169,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1987,41081,442220,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1988,7989,10843,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1989,2864,18877,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1990,108279,278827,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1991,60845,95565,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1992,3586,17906,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1993,4950,8716,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1994,19151,172547,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1995,23928,66040,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1996,9590,39470,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1997,836,1944,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1998,14548,214404,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,1999,10072,133931,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,2000,11860,59563,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,2001,3743,19042,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,2002,55465,507957,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,2003,18483,12366,CA
+NA,Sockeye,NA,Seymour,Fraser River,Fraser River,2004,762,6904,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1950,583045,9944058,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1951,82097,529582,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1952,4211,17932,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1953,1623,31027,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1954,1067603,15869336,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1955,44632,865520,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1956,2103,7974,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1957,1651,3163,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1958,1644152,2213808,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1959,89270,382302,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1960,1322,2549,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1961,854,8147,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1962,651863,2925312,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1965,1332,24808,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1966,660849,4051932,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1967,402412,3184223,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1968,2713,21961,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1969,3166,29860,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1970,785282,5580907,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1971,158976,702125,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1972,2155,44505,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1974,619123,7050422,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1975,85544,1026264,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1976,3072,14170,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1977,6027,93645,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1978,1014761,9657379,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1979,162142,1499666,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1980,1816,23307,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1981,5959,9470,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1982,1568605,9464899,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1983,100256,1980917,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1984,2409,33174,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1985,806,14934,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1986,1068479,10945795,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1987,319734,3903932,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1988,3558,8220,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1990,1745709,7770370,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1991,616033,866189,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1992,6640,19909,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1993,765,15366,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1994,686190,2610200,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1995,210969,771591,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1996,5492,61532,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1998,680650,7248023,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,1999,138247,698913,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,2000,164,1388,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,2001,2141,8890,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,2002,2845464,7509787,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,2003,189793,138420,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,2005,11792,33868,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,2006,1170725,17568471,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,2007,32296,210478,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,2009,20208,380032,CA
+NA,Sockeye,NA,L.Shuswap,Fraser River,Fraser River,2010,3073257,8616732,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1950,41370,242740,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1951,13590,216719,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1952,24744,244678,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1953,16287,156143,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1954,8635,175704,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1956,27156,279109,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1957,7068,76363,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1958,5510,129262,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1959,11388,268022,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1960,19198,172100,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1961,10550,129815,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1962,14311,102491,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1963,20769,456078,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1964,27978,365895,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1965,9769,165171,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1966,13462,316855,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1968,31042,285207,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1971,16143,369096,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1972,26202,519340,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1973,28374,216524,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1974,85495,727181,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1975,23315,120593,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1976,50023,619577,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1978,48158,666214,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1979,35482,415951,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1980,32786,163172,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1981,27175,266159,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1984,23227,470361,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1986,197896,1211967,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1987,89432,999898,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1988,75535,927715,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1990,97112,238613,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1991,152083,122385,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1992,93443,99182,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1993,151096,575880,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1994,22315,67413,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1995,18430,170525,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1996,27848,78931,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1997,23275,30582,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1998,173045,619321,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,1999,26268,83528,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,2000,8333,101965,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,2001,28361,191674,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,2002,107481,634125,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,2003,152651,13338,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,2004,17516,76400,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,2005,27117,86050,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,2006,137365,441809,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,2007,54290,246613,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,2008,6788,71911,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,2009,34475,133712,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,2010,67762,33814,CA
+NA,Sockeye,NA,Birkenhead,Fraser River,Fraser River,2011,92420,88236,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1950,18546,108361,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1952,11309,44424,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1953,4930,63669,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1954,10476,71295,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1955,16711,281084,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1956,8469,37505,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1957,12236,28083,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1958,7017,51030,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1959,29845,53023,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1960,9431,23939,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1961,6554,6148,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1962,16352,36742,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1963,10504,138448,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1964,5787,71400,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1965,1512,21020,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1966,8614,45065,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1967,17176,110974,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1968,13862,42454,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1969,2964,6477,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1970,7607,46132,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1971,4629,51271,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1972,5399,30363,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1973,301,713,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1974,4989,30293,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1975,6843,129249,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1976,2688,6123,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1979,18913,110516,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1980,898,4825,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1981,134,1544,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1982,9580,18839,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1983,11490,96326,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1984,389,9406,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1985,195,2431,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1986,2016,10488,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1987,16189,65855,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1988,454,7825,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1991,9850,17399,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1992,697,1884,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1993,571,945,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1994,2524,2448,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1995,4279,14793,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1996,723,1515,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1997,35,717,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1998,955,6185,CA
+NA,Sockeye,NA,Cultus,Fraser River,Fraser River,1999,1025,2852,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1951,15,244,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1953,24,394,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1954,1729,38700,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1957,20,47,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1958,2749,25645,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1959,286,5565,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1962,6326,72180,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1965,589,3463,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1966,15201,31339,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1967,1983,4286,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1968,50,1046,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1974,4843,42611,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1975,1631,15753,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1976,753,7590,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1977,3923,39989,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1980,996,12225,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1981,2951,20069,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1982,11734,210984,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1983,4909,37358,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1986,6212,71594,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1987,3766,63044,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1990,8415,50970,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1991,7292,15891,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1992,1378,17136,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1993,9829,174902,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1995,4319,40496,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1997,5056,41499,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1998,11873,18053,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,1999,2079,9078,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,2000,671,12829,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,2001,1851,18610,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,2002,8001,48191,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,2004,778,5688,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,2005,8261,2532,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,2006,10971,172797,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,2007,849,2820,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,2008,63,519,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,2009,792,11966,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,2010,26687,88940,CA
+NA,Sockeye,NA,Portage,Fraser River,Fraser River,2011,330,57,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1966,9860,76161,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1967,10619,88405,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1969,30604,412913,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1972,15027,350142,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1973,24885,274667,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1974,28099,284880,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1975,16033,169860,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1976,28243,304434,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1977,28510,235763,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1979,25702,141028,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1980,43285,364714,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1981,22627,270292,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1982,115031,1505995,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1983,27380,239991,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1984,30435,635778,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1985,22773,69300,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1986,41837,42717,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1987,30106,220718,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1988,27623,513778,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1991,18710,65545,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1993,34019,501325,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1994,35516,715932,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1995,10905,266443,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1996,26849,383413,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1997,10724,215997,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1998,29811,566885,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,1999,13106,246929,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,2001,8035,196083,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,2002,36269,242830,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,2003,24681,188799,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,2004,13967,121252,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,2005,23597,65091,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,2006,13618,247382,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,2007,15825,333790,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,2009,12871,230325,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,2010,25328,129799,CA
+NA,Sockeye,NA,Weaver,Fraser River,Fraser River,2011,24535,709,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1973,83,1106,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1974,70,586,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1976,2373,22761,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1979,8046,18564,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1980,4413,36205,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1981,1067,3947,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1982,656,11140,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1983,2596,39122,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1984,6291,49644,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1986,3323,35411,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1987,9212,78650,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1988,13209,50650,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1989,2813,19804,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1990,6702,22995,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1991,11945,14854,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1992,6103,50629,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1993,5030,43315,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1994,3515,14061,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1995,5988,37010,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1996,15409,13827,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1997,4379,6261,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1998,4972,13140,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,1999,3341,43525,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,2000,4796,60597,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,2001,3343,11861,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,2002,4936,76212,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,2003,5317,13693,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,2004,1594,7677,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,2005,2817,2785,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,2006,8278,31124,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,2007,6900,6202,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,2009,715,8626,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,2010,5564,27500,CA
+NA,Sockeye,NA,Fennell,Fraser River,Fraser River,2011,4498,1903,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1965,777,16637,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1966,236,2956,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1970,142,2236,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1973,2966,57906,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1976,20,279,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1977,6702,77703,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1978,1091,19328,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1980,62,1532,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1981,6887,25367,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1983,133,2632,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1984,265,2625,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1986,11299,257059,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1988,723,3320,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1989,3928,16728,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1990,34411,316280,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1991,4539,25716,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1992,1385,2454,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1993,3259,11886,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1994,26711,184451,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1995,7810,14176,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1996,2205,4148,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1997,1415,2253,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1998,17001,193690,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,1999,2034,26423,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,2000,1732,41212,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,2002,50375,693222,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,2003,2477,1681,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,2004,432,3913,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,2005,2686,5761,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,2006,72735,1036578,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,2007,4758,49724,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,2009,2665,47655,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,2010,273905,423161,CA
+NA,Sockeye,NA,Scotch,Fraser River,Fraser River,2011,12451,8966,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1968,3835,82665,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1969,359,4766,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1975,1246,19756,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1976,8820,73230,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1977,1174,21324,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1978,129,1647,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1979,1648,18266,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1980,11032,79631,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1981,1908,18129,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1982,439,9701,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1983,3055,28098,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1984,9072,137919,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1986,1879,27349,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1987,4105,27833,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1988,17840,319543,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1989,9794,53094,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1990,3304,15949,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1991,4618,21685,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1992,9224,195433,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1993,9089,67524,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1994,1706,34364,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1995,4533,23459,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1996,14150,198058,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1997,1877,13409,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1998,2442,4812,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,1999,1765,42642,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,2000,16571,92002,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,2001,4008,50246,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,2002,1144,13001,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,2003,5036,4761,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,2004,5484,49333,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,2005,8850,15088,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,2009,5274,122248,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,2010,5903,44766,CA
+NA,Sockeye,NA,Gates,Fraser River,Fraser River,2011,26433,37443,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1973,10726,73354,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1974,2072,20212,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1975,8655,158876,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1976,898,7274,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1977,10085,132049,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1978,1527,31247,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1979,21272,101373,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1980,1603,21372,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1981,11363,76800,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1982,1423,6775,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1983,15945,149731,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1984,3847,24917,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1985,7731,46853,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1986,2051,20838,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1987,15643,191036,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1988,4514,57739,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1989,2653,20016,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1990,3405,15734,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1991,33387,56339,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1993,4797,56702,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1994,1077,18358,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1995,8452,65517,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1997,2624,3186,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1998,1983,4879,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,1999,5026,11388,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,2000,65446,259537,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,2001,17875,96134,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,2002,1031,6180,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,2003,1677,3705,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,2004,13773,219464,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,2005,12141,16209,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,2006,4487,64878,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,2007,1006,11542,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,2008,10169,91101,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,2009,3718,21779,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,2010,11892,198859,CA
+NA,Sockeye,NA,Nadina,Fraser River,Fraser River,2011,1195,11223,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1950,13313,146337,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1951,17922,120302,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1952,21904,72178,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1953,9303,25807,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1954,8332,51094,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1955,11221,166937,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1956,11107,70323,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1957,5130,29207,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1958,6658,16535,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1959,6096,62493,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1960,12532,33314,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1961,6542,103035,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1962,8479,57275,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1963,5798,142935,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1965,3387,38984,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1966,10735,77701,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1967,5241,67780,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1968,8194,105588,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1969,11739,61083,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1970,3123,55398,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1972,6575,123179,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1973,4713,29176,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1974,8859,135945,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1975,21376,85230,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1976,19475,105588,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1977,7798,34586,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1978,14116,34978,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1979,20384,38819,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1980,9191,16913,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1981,13301,40270,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1982,5090,18265,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1983,10093,62053,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1984,8759,75994,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1985,2113,23208,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1986,12305,40001,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1987,5533,22485,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1988,19026,62489,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1989,9051,16691,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1990,6037,9117,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1991,10867,33888,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1992,4411,100553,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1993,11430,103267,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1994,4087,35089,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1995,3185,52971,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1996,21678,151964,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1997,17239,96262,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1998,49869,133321,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,1999,19388,142825,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,2000,18581,111288,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,2001,74627,54820,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,2002,39138,69160,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,2003,39970,13966,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,2004,33786,40053,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,2005,33806,8548,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,2006,21301,67277,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,2007,19935,81659,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,2008,6348,80160,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,2009,18838,50938,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,2010,8783,45176,CA
+NA,Sockeye,NA,Pitt,Fraser River,Fraser River,2011,30439,77764,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1950,18216,78099,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1951,13181,122022,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1952,17215,23054,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1953,7641,9784,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1954,16869,14797,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1958,6404,59892,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1959,17692,41545,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1960,7076,29451,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1961,21725,13225,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1962,4197,50812,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1963,9803,87825,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1965,7779,20432,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1966,9295,55444,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1967,12672,50935,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1968,2854,17838,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1969,7559,7302,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1970,6471,39763,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1972,794,1963,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1973,1571,37681,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1974,8709,40338,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1976,2933,44728,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1977,1374,24058,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1978,10488,41193,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1979,20234,10895,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1980,2262,14393,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1981,1788,17869,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1982,4686,28956,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1983,2132,17919,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1984,689,5265,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1985,1825,14476,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1986,4145,9610,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1987,2686,46184,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1988,947,4013,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1989,1998,13564,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1991,7958,38111,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1992,172,3736,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1993,2271,19096,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1994,6087,20682,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1995,6758,49813,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1996,8255,7560,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1998,3013,64475,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,1999,5592,91504,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,2000,1745,12173,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,2002,24384,276837,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,2003,6043,105777,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,2005,211547,15936,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,2006,90944,1388576,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,2009,100603,174770,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,2010,399661,1493100,CA
+NA,Sockeye,NA,Harrison,Fraser River,Fraser River,2011,387080,229784,CA
 101,Chinook,NA,Ayakulik,Westward,NA,1977,4958,16470,GOA
 101,Chinook,NA,Ayakulik,Westward,NA,1978,4551,10526,GOA
 101,Chinook,NA,Ayakulik,Westward,NA,1979,4641,10499,GOA
@@ -8688,107 +8688,107 @@ NA,Sockeye,NA,Harrison,WC,Fraser River,2011,387080,229784,WC
 11,Chinook,Fall-run,Kalama River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2012,8007,NA,WC
 11,Chinook,Fall-run,Kalama River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2013,12061,NA,WC
 11,Chinook,Fall-run,Kalama River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2014,11537,NA,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1964,632,515,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1965,891,583,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1966,583,553,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1967,411,2253,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1968,249,2449,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1969,329,836,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1970,657,788,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1971,2142,698,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1972,534,717,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1973,210,785,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1974,420,1011,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1975,581,862,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1976,325,1089,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1977,568,689,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1978,687,640,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1979,716,590,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1980,311,637,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1981,397,448,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1982,240,567,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1983,305,693,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1984,192,1064,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1985,540,691,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1986,389,525,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1987,135,369,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1988,427,507,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1989,591,332,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1990,342,593,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1991,230,226,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1992,202,738,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1993,156,553,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1994,395,124,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1995,200,352,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1996,334,474,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1997,307,638,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1998,104,1799,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1999,217,1651,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2000,304,1967,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2001,526,873,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2002,1296,1036,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2003,714,473,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2004,886,560,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2005,598,1001,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2006,427,522,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2007,237,319,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2008,379,0,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2009,596,NA,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2010,426,NA,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2011,870,NA,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2012,566,NA,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2013,1540,NA,WC
-14,Chinook,Fall-run,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2014,942,NA,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1964,16857,11998,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1965,7927,12483,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1966,11627,6887,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1967,9711,21269,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1968,7160,33708,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1969,4986,19625,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1970,4130,20667,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1971,19926,15655,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1972,18488,13643,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1973,9120,11270,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1974,7549,10734,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1975,13859,9279,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1976,3371,18078,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1977,6930,24465,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1978,5363,20925,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1979,8023,24730,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1980,13839,24068,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1981,19297,10237,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1982,8370,13942,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1983,13540,20488,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1984,7132,37150,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1985,7491,24771,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1986,10472,19724,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1987,12210,14276,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1988,11165,18184,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1989,20058,10863,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1990,15378,17676,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1991,8787,7659,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1992,5508,26282,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1993,6462,18811,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1994,8456,3838,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1995,9715,9611,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1996,13077,10798,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1997,8168,13525,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1998,5173,26815,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1999,2417,22964,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2000,8741,30098,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2001,11274,13230,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2002,13293,15100,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2003,12912,6656,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2004,12928,7960,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2005,9775,13125,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2006,5066,7985,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2007,3708,5048,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2008,5485,NA,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2009,6283,NA,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2010,9294,NA,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2011,8205,NA,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2012,8143,NA,WC
-13,Chinook,Late fall,Lewis River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2013,15197,NA,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1964,632,515,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1965,891,583,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1966,583,553,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1967,411,2253,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1968,249,2449,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1969,329,836,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1970,657,788,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1971,2142,698,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1972,534,717,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1973,210,785,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1974,420,1011,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1975,581,862,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1976,325,1089,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1977,568,689,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1978,687,640,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1979,716,590,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1980,311,637,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1981,397,448,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1982,240,567,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1983,305,693,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1984,192,1064,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1985,540,691,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1986,389,525,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1987,135,369,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1988,427,507,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1989,591,332,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1990,342,593,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1991,230,226,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1992,202,738,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1993,156,553,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1994,395,124,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1995,200,352,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1996,334,474,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1997,307,638,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1998,104,1799,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1999,217,1651,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2000,304,1967,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2001,526,873,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2002,1296,1036,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2003,714,473,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2004,886,560,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2005,598,1001,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2006,427,522,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2007,237,319,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2008,379,0,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2009,596,NA,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2010,426,NA,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2011,870,NA,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2012,566,NA,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2013,1540,NA,WC
+14,Chinook,Fall-run,Lewis River Fall-run,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2014,942,NA,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1964,16857,11998,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1965,7927,12483,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1966,11627,6887,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1967,9711,21269,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1968,7160,33708,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1969,4986,19625,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1970,4130,20667,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1971,19926,15655,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1972,18488,13643,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1973,9120,11270,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1974,7549,10734,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1975,13859,9279,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1976,3371,18078,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1977,6930,24465,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1978,5363,20925,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1979,8023,24730,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1980,13839,24068,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1981,19297,10237,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1982,8370,13942,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1983,13540,20488,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1984,7132,37150,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1985,7491,24771,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1986,10472,19724,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1987,12210,14276,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1988,11165,18184,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1989,20058,10863,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1990,15378,17676,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1991,8787,7659,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1992,5508,26282,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1993,6462,18811,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1994,8456,3838,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1995,9715,9611,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1996,13077,10798,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1997,8168,13525,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1998,5173,26815,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1999,2417,22964,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2000,8741,30098,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2001,11274,13230,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2002,13293,15100,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2003,12912,6656,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2004,12928,7960,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2005,9775,13125,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2006,5066,7985,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2007,3708,5048,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2008,5485,NA,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2009,6283,NA,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2010,9294,NA,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2011,8205,NA,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2012,8143,NA,WC
+13,Chinook,Late fall,Lewis River Late fall,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",2013,15197,NA,WC
 15,Chinook,Fall-run,Lower Cowlitz River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1964,3312,5665,WC
 15,Chinook,Fall-run,Lower Cowlitz River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1965,5707,6831,WC
 15,Chinook,Fall-run,Lower Cowlitz River,Willamette/Lower Columbia,"Salmon, Chinook (Lower Columbia River ESU)",1966,4782,7223,WC
