@@ -54,7 +54,7 @@ dir.create(dir.output, recursive=TRUE)
 # source(file.path(dir.R, "plot-other-pars.R"))
 
 #Read SR Data ===================================================
-dat <- read.csv(file.path("data","AK-WCoast-Salmon-SR.csv"), header=TRUE, stringsAsFactors=TRUE)
+dat <- read.csv(file.path("data","AK-WCoast-Salmon-SR.csv"), header=TRUE, stringsAsFactors=FALSE)
 #Add rps and ln.rps
 dat$rps <- dat$rec/dat$spawn
 dat$ln.rps <- log(dat$rps)
