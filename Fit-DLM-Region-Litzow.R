@@ -8,13 +8,15 @@
 #
 #==================================================================================================
 #NOTES:
-#  a) 100,000 iter took 7 hours for single species.
-# "Thu Feb  7 23:52:17 2019"
-# "Fri Feb  8 09:16:57 2019"
+# [1] "n.iter: 20000"
+# [1] "n.thin: 10"
+# [1] "Thu Mar  7 22:05:28 2019"
+# [1] "Fri Mar  8 00:26:44 2019"
 
-# NO CHINOOK - 1e4 thin 5
-# [1] "Wed Feb 20 14:47:13 2019"
-# [1] "Wed Feb 20 17:25:56 2019"
+# [1] "n.iter: 20000"
+# [1] "n.thin: 10"
+# [1] "Thu Apr 18 16:38:20 2019"
+# [1] "Thu Apr 18 18:31:28 2019"
 #==================================================================================================
 
 require(tidyverse)
@@ -33,13 +35,21 @@ require(reshape2)
 do.est <- TRUE
 
 n.chains <- 3
-n.iter <- 1e3#1e4
-n.thin <- 2#5
+n.iter <- 2e4
+n.thin <- 10
+
+# Model Designations
+# Original
+# model_file <- "DLM-Region.stan"
+# model_name <- "DLM-Region"
+
+model_file <- "DLM-Region-ARerror.stan"
+model_name <- "DLM-Region-ARerror"
 
 #Define Workflow Paths ====================================================
 # *Assumes you are working from the Coastwide_Salmon_Analysis R project
 wd <- getwd()
-dir.data <- file.path(wd,"Data","New Data 2.8.19")
+dir.data <- file.path(wd,"Data")
 dir.figs <- file.path(wd,"Figs","DLM-Region-Litzow")
 dir.output <- file.path(wd,"Output","DLM-Region-Litzow")
 dir.R <- file.path(wd,"R")
@@ -54,13 +64,23 @@ dir.create(dir.output, recursive=TRUE)
 # source(file.path(dir.R, "plot-other-pars.R"))
 
 #Read SR Data ===================================================
-dat <- read.csv(file.path("data","AK-WCoast-Salmon-SR.csv"), header=TRUE, stringsAsFactors=TRUE)
+dat <- read.csv(file.path(dir.data, "New Data 2.8.19", "coastwide data 1.17.19.csv"), header=TRUE, stringsAsFactors=FALSE)
+
+#Rename for consistency
+names(dat)[4] <- 'broodYr'
+names(dat)[5] <- 'spawn'
+names(dat)[6] <- 'rec'
+names(dat)[9] <- 'large.region'
+
 #Add rps and ln.rps
 dat$rps <- dat$rec/dat$spawn
 dat$ln.rps <- log(dat$rps)
 
 #Subset SR Data ==============================================
 dat.2 <- dat %>% filter(!is.infinite(ln.rps), !is.na(ln.rps), broodYr>=1950, broodYr<=2010)
+
+sum.dirs <- dat.2 %>% group_by(species, stock) %>% summarize(min=min(broodYr), max=max(broodYr), nn=length(broodYr))
+
 
 #Update Duplicate Stock Identifiers (mostly Chinook) ==========================
 
@@ -77,15 +97,14 @@ n.regions <- length(regions)
 
 #Specify Offsets for Covariates ================================
 #From BroodYear
-offset <- c(2,2,1,2,3)
+offset <- c(1,2,2)#c(2,2,1,2,3)
 offset.table <- cbind(species, offset)
 write.csv(offset.table, file=file.path(dir.figs,"offset.table.csv"))
 
 #Fit STAN Models ==============================================
 start <- date()
-s <- 5
-# for(s in 1:n.species) {
-for(s in c(1,3,4,5)) {
+s <- 1
+for(s in 1:n.species) {
   print(paste('###### s',s,'of',n.species))
   temp.species <- species[s]
   dat.3 <- dat.2 %>% filter(species==temp.species)
@@ -158,8 +177,8 @@ for(s in c(1,3,4,5)) {
   # 
   #Call STAN =======================================================
   if(do.est==TRUE) {
-    fit <- stan(file=file.path(dir.R,"DLM-Region.stan"),
-                model_name="DLM-Region",
+    fit <- stan(file=file.path(dir.R, model_file),
+                model_name=model_name,
                 data=list("N"=N, "maxN"=maxN,
                           "ln_rps"=ln_rps, "spawn"=spawn,
                           "K"=K, 
@@ -257,6 +276,8 @@ for(s in c(1,3,4,5)) {
 
 end <- date()
 
+print(paste('n.iter:',n.iter))
+print(paste('n.thin:',n.thin))
 print(start)
 print(end)
 
