@@ -12,10 +12,10 @@
 #       with the same "stock" identifier. I updated these in the input .xlsx and .csv files.
 # 
 # TIMINGS: 
-[1] "n.iter: 30000"
-[1] "n.thin: 15"
-[1] "Sat Oct 26 13:52:39 2019"
-[1] "Sun Oct 27 15:11:44 2019"
+# [1] "n.iter: 30000"
+# [1] "n.thin: 15"
+# [1] "Sat Oct 26 13:52:39 2019"
+# [1] "Sun Oct 27 15:11:44 2019"
 
 #==================================================================================================
 
