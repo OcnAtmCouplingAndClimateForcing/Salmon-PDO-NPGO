@@ -103,10 +103,10 @@ model {
     sigma_pe_NPGO[r] ~ normal(0,5);//cauchy(0,5);
     
     //Priors for ARMA(1) Components
-    phi_PDO[r] ~ normal(0,2);
-    phi_NPGO[r] ~ normal(0,2);
-    theta_PDO[r] ~ normal(0,2);
-    theta_NPGO[r] ~ normal(0,2);
+    phi_PDO[r] ~ uniform(-0.99,0.99);#normal(0,2);
+    phi_NPGO[r] ~ uniform(-0.99,0.99);#normal(0,2);
+    theta_PDO[r] ~ uniform(-0.99,0.99);#normal(0,2);
+    theta_NPGO[r] ~ uniform(-0.99,0.99);#normal(0,2);
     
     //Deviations - theta is for MA(1) process
     //Initial
