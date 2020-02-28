@@ -58,3 +58,7 @@ rsconnect/
 
 #Ignore Curry's Doc Folder
 /doc
+
+# Ignore all .rds files
+*.rds
+
