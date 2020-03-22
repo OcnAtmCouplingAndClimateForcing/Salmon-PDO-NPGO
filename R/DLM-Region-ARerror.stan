@@ -99,7 +99,7 @@ transformed parameters {
           }
         }// next n
     }//next s
-  }
+}
   
 model {
   //Priors
