@@ -91,8 +91,8 @@ transformed parameters {
             }
             // pred[s,n] = alpha[s] - beta[s]*spawn[s,n] + PDO[s,n] * coef_PDO[region[s],n] + NPGO[s,n] * coef_NPGO[region[s],n];
             pred[s,n] = alpha[s] - beta[s]*spawn[s,n] + PDO[s,n] * coef_PDO[region[s],years[s,n]] + 
-                                                        NPGO[s,n] * coef_NPGO[region[s],years[s,n]] + 
-                                                        phi * residual[s,n]; 
+                                                        NPGO[s,n] * coef_NPGO[region[s],years[s,n]];// + 
+                                                        // phi * residual[s,n]; 
           }else {
             pred[s,n] = 0;
             residual[s,n] = 0;
@@ -131,7 +131,7 @@ model {
   for(s in 1:S) {
     // ln_rps[s,1:N[s]] ~ normal(pred[1:N[s]], sigma_oe[s]); //DOESN'T WORK!!!!
     for(n in 1:N[s]) {
-      ln_rps[s,n] ~ normal(pred[s,n], sigma_oe[s]);
+      ln_rps[s,n] ~ normal(pred[s,n] + phi * residual[s,n], sigma_oe[s]);
     }//next n
   }//next s
 }
@@ -142,7 +142,7 @@ generated quantities {
     // for(n in 1:N[s]){
     for(n in 1:maxN) {
       if(n<=N[s]) {
-        log_lik[s,n] = normal_lpdf(ln_rps[s,n] | pred[s,n], sigma_oe[s]);
+        log_lik[s,n] = normal_lpdf(ln_rps[s,n] | pred[s,n] + phi * residual[s,n], sigma_oe[s]);
       }else {
         log_lik[s,n] = 0;
       }
