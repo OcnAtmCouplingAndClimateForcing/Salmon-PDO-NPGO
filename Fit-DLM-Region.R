@@ -17,6 +17,20 @@
 # [1] "Sat Oct 26 13:52:39 2019"
 # [1] "Sun Oct 27 15:11:44 2019"
 
+# Change in AR coefficient
+# [1] "n.iter: 30000"
+# [1] "n.thin: 15"
+# [1] "Sat Mar 21 19:29:08 2020"
+# [1] "Sun Mar 22 11:32:00 2020"
+
+# [1] "n.iter: 30000"
+# > print(paste('n.thin:',n.thin))
+# [1] "n.thin: 10"
+# > print(start)
+# [1] "Sun Mar 22 11:51:38 2020"
+# > print(end)
+# [1] "Mon Mar 23 07:32:44 2020"
+
 #==================================================================================================
 
 require(tidyverse)
@@ -32,11 +46,11 @@ require(BEST)
 require(reshape2)
 
 #CONTROL SECTION ==========================================================
-do.est <- TRUE
+do.est <- FALSE
 
 n.chains <- 4
 n.iter <- 3e4#2e4
-n.thin <- 15
+n.thin <- 10
 (n.iter/n.thin*0.5)*n.chains
 
 # Model Designations
@@ -45,7 +59,7 @@ n.thin <- 15
 # model_name <- "DLM-Region"
 
 model_file <- "DLM-Region-ARerror.stan"
-model_name <- "DLM-Region-ARerror-NEW"
+model_name <- "DLM-Region-ARerror-UPDATED"
 
 #Define Workflow Paths ====================================================
 # *Assumes you are working from the Coastwide_Salmon_Analysis R project
@@ -193,14 +207,16 @@ for(s in 1:n.species) {
                         "S"=S,
                         "R"=R,
                         "region"=region, "years"=years),
-              # chains=3, iter=1e5, thin=50,
               chains=n.chains, iter=n.iter, thin=n.thin,
-              # chains=3, iter=1e3, thin=1,
-              cores=3, verbose=FALSE,
-              seed=101)
+              cores=n.chains, verbose=FALSE,
+              seed=101,
+              # sample_prior=TRUE,
+              control = list(adapt_delta = 0.99))
   
   #Save Output
   saveRDS(fit, file=file.path(dir.output,paste0(temp.species,'-fit.rds')))
+  # Save Summary
+  write.csv(summary(fit)$summary, file=file.path(dir.figs, "summary.csv"))
   }else {
     fit <- readRDS(file=file.path(dir.output,paste0(temp.species,'-fit.rds')))
   }
