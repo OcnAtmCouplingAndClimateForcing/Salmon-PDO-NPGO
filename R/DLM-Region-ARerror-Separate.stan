@@ -13,14 +13,14 @@ data {
   int years[S, maxN]; //Pointer vector for brood year references.
   matrix[S,maxN] ln_rps;
   matrix[S,maxN] spawn;
-  int<lower=0> K; // number of covariates
+  // int<lower=0> K; // number of covariates
   // vector[K] covars[S,maxN]; //[S,N,K]
   // matrix[S,maxN] covars[K]; //[K,S,N]
   //real[S,maxN,K] covars;
   //int log[N];
   
-  matrix[S,maxN] PDO;
-  matrix[S,maxN] NPGO;
+  matrix[S,maxN] covar;
+  // matrix[S,maxN] NPGO;
   
   int<lower=0> R; //number of regions
   int region[S]; //region pointer
@@ -30,18 +30,18 @@ data {
 parameters {
   //Coefficients
   //Initial Coefficient Values
-  vector[R] coef0_PDO;
-  vector[R] coef0_NPGO;
+  vector[R] coef0;
+  // vector[R] coef0_NPGO;
   
-  vector[maxN-1] pro_dev_PDO[R]; // elements accessed [R,N-1] - A vector of length R, each element of which is a vector of lenth maxN-1
-  vector[maxN-1] pro_dev_NPGO[R];
+  vector[maxN-1] pro_dev[R]; // elements accessed [R,N-1] - A vector of length R, each element of which is a vector of lenth maxN-1
+  // vector[maxN-1] pro_dev_NPGO[R];
   
   //Ricker Params
   real<lower=0> alpha[S];
   real<lower=0> beta[S];
   //Variances
-  real<lower=0> sigma_pe_PDO[R];
-  real<lower=0> sigma_pe_NPGO[R];
+  real<lower=0> sigma_pe[R];
+  // real<lower=0> sigma_pe_NPGO[R];
   real<lower=0> sigma_oe[S];
   //Autoregressive term for errors
   real<lower=-1, upper=1> phi;
@@ -51,19 +51,19 @@ parameters {
 
 transformed parameters {
   vector[maxN] pred[S]; // [S,maxN] - vector of length S, each element of which is a vector of length maxN
-  vector[maxN] coef_PDO[R]; // elements accessed [R,maxN] - vector of length R, each element is a vector of length maxN
-  vector[maxN] coef_NPGO[R];
+  vector[maxN] coef[R]; // elements accessed [R,maxN] - vector of length R, each element is a vector of length maxN
+  // vector[maxN] coef_NPGO[R];
   
   //Iniital Residual for autocorrelated error structure
   vector[maxN] residual[S];
   
   //Coefficient Time Series
   for(r in 1:R) {  //Loop through regions
-    coef_PDO[r,1] = coef0_PDO[r];  //Initial time step
-    coef_NPGO[r,1] = coef0_NPGO[r];
+    coef[r,1] = coef0[r];  //Initial time step
+    // coef_NPGO[r,1] = coef0_NPGO[r];
     for(n in 2:maxN) {
-      coef_PDO[r,n] = coef_PDO[r,n-1] + pro_dev_PDO[r,n-1];
-      coef_NPGO[r,n] = coef_NPGO[r,n-1] + pro_dev_NPGO[r,n-1];
+      coef[r,n] = coef[r,n-1] + pro_dev[r,n-1];
+      // coef_NPGO[r,n] = coef_NPGO[r,n-1] + pro_dev_NPGO[r,n-1];
     }//next n
   }//next r
   
@@ -90,8 +90,8 @@ transformed parameters {
               residual[s,n] = ln_rps[s,n-1] - pred[s,n-1];
             }
             // pred[s,n] = alpha[s] - beta[s]*spawn[s,n] + PDO[s,n] * coef_PDO[region[s],n] + NPGO[s,n] * coef_NPGO[region[s],n];
-            pred[s,n] = alpha[s] - beta[s]*spawn[s,n] + PDO[s,n] * coef_PDO[region[s],years[s,n]] + 
-                                                        NPGO[s,n] * coef_NPGO[region[s],years[s,n]];// + 
+            pred[s,n] = alpha[s] - beta[s]*spawn[s,n] + covar[s,n] * coef[region[s],years[s,n]];// + 
+                                                        // NPGO[s,n] * coef_NPGO[region[s],years[s,n]];// + 
                                                         // phi * residual[s,n]; 
           }else {
             pred[s,n] = 0;
@@ -115,14 +115,14 @@ model {
 
     
   for(r in 1:R) { //Regions
-    coef0_PDO[r] ~ normal(0,1);
-    coef0_NPGO[r] ~ normal(0,1);
-    sigma_pe_PDO[r] ~ normal(0,1);//cauchy(0,5);
-    sigma_pe_NPGO[r] ~ normal(0,1);//cauchy(0,5);
+    coef0[r] ~ normal(0,1);
+    // coef0_NPGO[r] ~ normal(0,1);
+    sigma_pe[r] ~ normal(0,1);//cauchy(0,5);
+    // sigma_pe_NPGO[r] ~ normal(0,1);//cauchy(0,5);
       
     for(n in 1:(maxN-1)) {
-      pro_dev_PDO[r,n] ~ normal(0, sigma_pe_PDO[r]);
-      pro_dev_NPGO[r,n] ~ normal(0, sigma_pe_NPGO[r]);
+      pro_dev[r,n] ~ normal(0, sigma_pe[r]);
+      // pro_dev_NPGO[r,n] ~ normal(0, sigma_pe_NPGO[r]);
     }//next n
   }
     
