@@ -11,7 +11,13 @@
 #  a) Separte models for PDO and NPGO to avoid confounding due to change in correlation structure
 # 
 # TIMINGS: 
-
+# [1] "n.iter: 10000"
+# > print(paste('n.thin:',n.thin))
+# [1] "n.thin: 2"
+# > print(start)
+# [1] "Sun Mar 22 12:53:55 2020"
+# > print(end)
+# [1] "Mon Mar 23 00:59:13 2020"
 
 #==================================================================================================
 
@@ -28,11 +34,11 @@ require(BEST)
 require(reshape2)
 
 #CONTROL SECTION ==========================================================
-do.est <- TRUE
+do.est <- FALSE
 
 n.chains <- 4
-n.iter <- 3e4#2e4
-n.thin <- 15
+n.iter <- 1e4#3e4
+n.thin <- 2#10
 (n.iter/n.thin*0.5)*n.chains
 
 # Model Designations
@@ -47,8 +53,8 @@ model_name <- "DLM-Region-ARerror-Separate"
 # *Assumes you are working from the Coastwide_Salmon_Analysis R project
 wd <- getwd()
 dir.data <- file.path(wd,"Data")
-dir.figs <- file.path(wd,"Figs","DLM-Region")
-dir.output <- file.path(wd,"Output","DLM-Region")
+dir.figs <- file.path(wd,"Figs", model_name)
+dir.output <- file.path(wd,"Output", model_name)
 dir.R <- file.path(wd,"R")
 
 #Create
@@ -89,6 +95,9 @@ dat.2 <- dat %>% filter(!is.infinite(ln.rps), !is.na(ln.rps), !is.nan(ln.rps), r
 #Read PDO/NPGO Data =============================================
 covar.dat <- read.csv(file.path(dir.data,"Covariates","covar.dat.csv"))
 
+covars <- c("PDO","NPGO")
+n.covars <- length(covars)
+
 #Extract Metadata ===================================================
 species <- unique(dat.2$species)
 n.species <- length(species)
@@ -104,9 +113,14 @@ write.csv(offset.table, file=file.path(dir.figs,"offset.table.csv"))
 
 #Fit STAN Models ==============================================
 start <- date()
-s <- 1
-for(s in 1:n.species) {
-  # for(s in c(1,3,4,5)) { #Currently Excluding Chinook
+c <- 1
+# for(c in 1:n.covars) {
+  
+  # Covariates
+  temp.covar <- covars[c]
+
+  s <- 1
+  # for(s in 1:n.species) {
   print(paste('###### s',s,'of',n.species))
   temp.species <- species[s]
   dat.3 <- dat.2 %>% filter(species==temp.species)
@@ -170,6 +184,14 @@ for(s in 1:n.species) {
   # maxN <- max(N)
   temp.regions <- regions[unique(region)]
   
+  # Specify which covariate will be used =============================
+  if(temp.covar=="PDO") {
+    covar <- PDO
+  }else {
+    covar <- NPGO
+  }
+  
+  
   #Truncate STAN Input Objects ======================
   # ln_rps <- ln_rps[,1:maxN]
   # spawn <- spawn[,1:maxN]
@@ -183,22 +205,24 @@ for(s in 1:n.species) {
                 model_name=model_name,
                 data=list("N"=N, "maxN"=maxN,
                           "ln_rps"=ln_rps, "spawn"=spawn,
-                          "K"=K, 
-                          #"covars"=covars,
-                          "PDO"=PDO, "NPGO"=NPGO,
+                          # "K"=1,
+                          "covar"=covar,
+                          # "PDO"=PDO, "NPGO"=NPGO,
                           "S"=S,
                           "R"=R,
                           "region"=region, "years"=years),
-                # chains=3, iter=1e5, thin=50,
                 chains=n.chains, iter=n.iter, thin=n.thin,
-                # chains=3, iter=1e3, thin=1,
-                cores=3, verbose=FALSE,
-                seed=101)
+                cores=n.chains, verbose=FALSE,
+                seed=101,
+                # sample_prior=TRUE,
+                control = list(adapt_delta = 0.99))
     
     #Save Output
-    saveRDS(fit, file=file.path(dir.output,paste0(temp.species,'-fit.rds')))
+    saveRDS(fit, file=file.path(dir.output,paste0(temp.species,"-",temp.covar,"-fit.rds")))
+    # Save Summary
+    write.csv(summary(fit)$summary, file=file.path(dir.figs, "summary.csv"))
   }else {
-    fit <- readRDS(file=file.path(dir.output,paste0(temp.species,'-fit.rds')))
+    fit <- readRDS(file=file.path(dir.output,paste0(temp.species,"-",temp.covar,"-fit.rds")))
   }
   #Save Extras
   extras <- NULL
@@ -208,9 +232,12 @@ for(s in 1:n.species) {
   extras$n.stock.regions <- n.stock.regions
   extras$stock.years <- stock.years
   extras$n.stock.years <- n.stock.years
-  saveRDS(extras, file=file.path(dir.output,paste0(temp.species,'-extras.rds')))
+  extras$temp.covar <- temp.covar
+  saveRDS(extras, file=file.path(dir.output,paste0(temp.species,"-",temp.covar,"-extras.rds")))
   
   # fit <- readRDS(file=file.path(dir.output,paste0(temp.species,'-',temp.stock,'-fit.rds')))
+  
+  # ShinyStan ==============
   
   # Evaluate Output
   # fit
@@ -275,6 +302,8 @@ for(s in 1:n.species) {
   
   # }#next p - stock
 }#next s - species
+
+} #next covar
 
 end <- date()
 
